@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<HEAD><TITLE>handprint : synthesis of surface colors</TITLE>
+<link rel="stylesheet" type="text/css" href="https://www.handprint.com/HP/WCL/IMG/waterstyle.css">
+</HEAD>
+
+<BODY>
+
+<a name="top"></a>
+
+<TABLE class="main">
+
+<TR>
+<TD><IMG SRC="space.gif" WIDTH=30 HEIGHT=1></TD>
+<TD><IMG SRC="space.gif" WIDTH=80 HEIGHT=1></TD>
+<TD><IMG SRC="space.gif" WIDTH=460 HEIGHT=1></TD>
+<TD><IMG SRC="space.gif" WIDTH=200 HEIGHT=1></TD>
+<TD><IMG SRC="space.gif" WIDTH=30 HEIGHT=1></TD>
+</TR>
+
+<TR><TD COLSPAN=5 HEIGHT=40>&#160;</TD></TR>
+
+<TR>
+<TD COLSPAN=2></TD>
+<td class="main">
+
+<h2>synthesis of surface colors</h2>
+
+<p><img src="space.gif" width=160 height=1 align=left>Texts in traditional color theory sometimes introduce the trichromatic model of color vision, including the <b>L</b>, <b>M</b> and <b>S</b> <a class="text" href="color1.html#normconesens">cone sensitivity functions</a>, as the "scientific" foundation for color theory. But color vision described in that way has little practical application in painting and photography.
+</p>
+
+<p>
+This page adopts a novel approach: systematically manipulating the light reflected from surface colors to understand the basic patterns of our visual response. These patterns clarify how colors change in response to changes in light, and therefore how changes in light can be represented in color media.
+</p>
+
+<p>
+However, no real light or eyes are used in the demonstration. The "reflected light" is simulated with <a class="text" href="color3.html#optimalstimuli">optimal colors</a>. Every <a class="text" href="color4a.html#lightobject">surface color</a> has a <a class="text" href="color3.html#reflectance">reflectance profile</a>: optimal colors are just idealized reflectance profiles, created from discrete blocks of pure (100%) reflectance, which can be contrived to match the hue and/or lightness of any surface color, though always at the <i>maximum possible</i> hue purity (diagram, below).</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/rprof.gif" width=380 height=187></p>
+<p class="CC">real and ideal reflectance profiles</p>
+<p class="subCC">(left) real reflectance profiles for cadmium orange (PO20) and ultramarine blue (PB29); (right) ideal reflectance profiles (optimal colors) having the same lightness and hue as cadmium orange and ultramarine blue, but at maximum hue purity</p>
+
+<p>The optimal colors were simulated using the 10&deg; (1964) Stiles & Burch <a class="text" href="color6.html#xyzcurves">colormatching functions</a>, tabulated in one nanometer intervals from 360&#160;nm to 830&#160;nm. These are among the most accurate and spectrally widest colormatching functions available. The "visual system" here is the <a class="text" href="color7.html#CIECAM">CIECAM</a> color space, probably the most advanced and accurate color modeling system in current use, under the <a class="text" href="color6.html#equalenergy">equal energy</a> (<b>EE</b>) illuminant.
+</p>
+
+<p>
+This technical jargon describes a simple concept. The colormatching functions represent the <b>L</b>, <b>M</b> and <b>S</b> cone responses to light &#151; the "eyes" through which we see color. The optimal colors simulate colored surfaces that have the maximum hue purity possible in physical materials &#151; these are "color samples" that avoid the physical limitations of actual paints. CIECAM is the "visual system" that interprets the <b>L</b>, <b>M</b> and <b>S</b> cone outputs as the luminance, hue and hue purity of surface colors under bright illumination. The equal energy illuminant provides an absolutely pure "white" light that is tinted neither yellow (like an incandescent light) nor blue (like daylight).
+</p>
+
+<p>
+To analyze the basis of surface colors, we <i>change the reflected light</i> and observe how this affects the color appearance. We either <i>shift</i> reflectance across the spectrum, or <i>increase reflectance</i> from a single point in the spectrum, and examine the changes in hue, luminance or chroma that result in CIECAM.
+</p>
+
+<p>
+It is possible that the colormatching functions inaccurately define our color vision; or that CIECAM is flawed as a representation of visual experience. I minimize these hazards by comparing the optimal color analyses to the major <a class="text" href="#optimallandmarks">perceptual landmarks</a> found in color vision research. (The results of actual color vision experiments are described in <a class="text" href="color2.html">the geometry of color perception</a>.)
+</p>
+
+<p>
+These optimal color simulations have the merit of being comprehensive (all hues, including "extraspectral" violet colors, are included), exhaustive (all possible reflectance permutations can be examined), anchored in surface colors rather than in lights, and conveniently free of any physical limitations in the color appearance of pigments or the confusing variety of methods used in color vision research. Best of all, they provide vivid and useful insights into the dynamic visual experience of surface colors.<a name="analysiscolors"></a></p>
+
+<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>optimal circuits &#038; analysis colors</h3>
+
+<p><img src="space.gif" width=90 height=1 align=left><p>Let's start with a very simple question: how does the visual system respond to light at the extreme long ("red") or short ("blue") wavelength ends of the spectrum?
+</p>
+
+<p>
+Both series, by definition, must start in the monochromatic hue of the single wavelength spectrum limit. These are so dark that they appear perfectly black in
+surface colors. Both must end in a pure white, defined as 100% reflectance across the whole spectrum. But what colors are created by the surface reflectances in between?<br><a name="yellowcyancircuits"></a></p></td>
+
+<TD colspan=2 class="main">
+<table class="index">
+<tr><td height=80 valign=top><h1>color<br>vision</h1></TD></tr>
+
+<tr><td height=450 valign=top align=right>
+
+<p><a class="index1" href="#analysiscolors"> optimal circuits &#038; analysis colors</a><br>
+<a class="index2" href="#yellowcyancircuits">yellow &#038; cyan circuits</a><br>
+<a class="index2" href="#greenmagentacircuits">green &#038; magenta circuits</a><br>
+<a class="index2" href="#sixcolors">summary of<br>analysis optimal colors</a></p>
+
+<p><a class="index1" href="#70circuit">a 70&#160;nm optimal circuit</a></p>
+
+<p><a class="index1" href="#optimalhues">additive changes in hue &#038; luminance</a></p>
+
+<p><a class="index1" href="#naturalchroma">natural chroma benchmarks</a></p>
+
+<p><a class="index1" href="#structurefunction">what is the perceptual structure for?</a></p>
+
+<p><a class="index1" href="#summary">summary</a></p></td></tr>
+
+<tr><td height=50 valign=top><p class="imgS"><a class="text" href="../../LS/CVS/color.html"><IMG SRC="https://www.handprint.com/HP/WCL/IMG/whorlwht.gif" WIDTH=48 HEIGHT=48 BORDER=0></A></p></td></tr></table></TD>
+</TR>
+
+<tr>
+<td colspan=2></td>
+<td align=left valign=top><p><span class="rubric">Yellow &#038; Cyan Circuits</span>. To simulate the surface colors, I constructed two series of optimal colors, starting at either the "blue" (360&#160;nm) or "red" (830&#160;nm) spectrum limit, then incrementally added reflectance toward the opposite end of the spectrum (diagram, right). As the <i>boundary wavelength</i> (<b>bw</b>) moves away from the spectrum limit, it increases the width (<b>w</b>) of reflectance in the optimal color, increasing its luminance and altering its hue (always at maximum chroma or hue purity for its lightness). 
+<a name="balance1"></a></p>
+
+<p>
+To recreate the color appearance of these colors, we map these two series of 470 <a class="text" href="color3.html#cliffprofile">type B optimal colors</a> in CIECAM. This reveals two symmetrically opposed circuits, each within one quadrant of the hue circle: a <b>yellow circuit</b> across the <i>orange red</i> to <i>green yellow</i> ("warm") hues and a <b>cyan circuit</b> across the <i>blue violet</i> to <i>green blue</i> ("cool") hues (diagram, below). (Refer to this <a class="text" href="color18a.html#visualhuecircle">hue circle</a>, or to the <a class="text" href="colormap.html">palette scheme</a>, for the location of hues in CIECAM.)</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance1.gif" width=380 height=370></p>
+<p class="CC">yellow and cyan optimal color circuits in CIECAM</p>
+<p class="subCC">optimal colors constructed from the short wavelength (<b>blue</b>) or long wavelength (<b>yellow</b>) end of the spectrum, in CIECAM under EE illuminant; <b>black dots</b> mark hue location on each circuit of boundary wavelengths (diagram, above right) in 50&#160;nm invervals; <b>colored squares</b> indicate the dichromatic white points caused by missing <b>L</b>, <b>M</b> or <b>S</b> photopigments (the <a class="index1" href="colorb.html">achromatic point</a> between the remaining two cones); <b>white bars</b> on circumference indicate areas of maximum spectral <a class="index1" href="color2.html#huediscrim">hue discrimination</a>; <b>colored X</b>'s indicate the orientation of four <a class="index1" href="color2.html#balancepoints">opponent dimensions</a> (red/green and yellow/blue); <b>inverted triangles</b> on circumference indicate peak wavelength sensitivity of the <b>L</b>, <b>M</b> and <b>S</b> cones; inverted triangles on optimal color circuits indicate points where the boundary wavelength is at the cone peak sensitivity</p></td>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridge1.gif" width=200 height=124></p>
+<p class="SC">constructing type B optimal colors from a spectrum limit at 830&#160;nm</p>
+<p class="subSC">the boundary wavelength (<b>bw</b>)<br>located at 615&#160;nm</p>
+</td>
+</tr>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>Each circuit originates in achromatic black, because every wavelength except the spectrum limit wavelength has 0% reflectance. As reflectance is added, the color climbs away from the achromatic point (<b>WP</b>) along a single hue angle, its <b>black limit</b>, at CIECAM hue angle 33&deg; for the yellow circuit and 287&deg; for the cyan circuit. As more reflectance (light) is added, each circuit traverses about one quarter of the hue circle (one third of the spectrum) at high chroma, then dives again toward a brilliant white at a second constant hue angle, its <b>white limit</b>, which is about 111&deg; for the yellow circuit and 200&deg; for the cyan circuit (diagram, right). These four limit hue angles correspond to <a class="text" href="color1.html#huenames">spectral hues</a> at 650&#160;nm ("orange red"), 415&#160;nm ("blue violet"), 565&#160;nm ("green yellow") and 485&#160;nm ("green blue") respectively.
+</p>
+
+<p>
+The yellow and cyan circuits have similar shapes and cover roughly equal spans of the hue circle, but the cyan circuit has a lower maximum chroma than the yellow circuit (<b>C</b> = 103 to 144). (However, the <a class="text" href="#satcircuit">cyan circuit appears larger</a> using <a class="text" href="color3.html#colormakingsaturation">saturation</a>, which compares chroma to the lightness of the color.) This indicates that <b>blue surfaces have lower chroma than yellows or reds</b>, and that this limitation is part of our visual system and not due to the material qualities of surfaces. 
+</p>
+
+<p>
+The black and white limits divide the visible spectrum into three segments &#151; orange, green and blue. So a logical next step is to create three <b>analysis optimal colors</b> by adding together all reflectance within each of the three quandrants described above. This creates:
+</p>
+
+<p>
+<b>optimal orange</b> (565-830&#160;nm, dominant wavelength 594&#160;nm)<br> <b>optimal green</b> (485-565&#160;nm, dominant wavelength 525&#160;nm) and <br><b>optimal blue</b> (360-485&#160;nm, dominant wavelength 458&#160;nm).
+</p>
+
+<p>
+We can also combine two spectrum segments to create three <a class="text" href="color5.html#subdemo">subtractive "primary"</a> optimal colors:
+</p>
+
+<p>
+<b>optimal yellow</b> (485&#150;830&#160;nm, dominant wavelength 570&#160;nm)<br> 
+<b>optimal cyan</b> (360&#150;565&#160;nm, dominant wavelength 482&#160;nm) and <br>
+<b>optimal magenta</b> (360&#150;485&#160;nm + 565&#150;830&#160;nm, dominant wavelength c510&#160;nm).
+</p>
+
+<p>
+This three part spectrum division is validated by the fact that the compound yellow and cyan optimal colors are the hue of the white limit they straddle (diagram, above). Thus the dominant wavelength of optimal cyan (482&#160;nm) matches the cyan circuit white limit at 485&#160;nm; the dominant wavelength of optimal yellow (570&#160;nm) matches the yellow circuit white limit at 565&#160;nm.
+<a name="greenmagentacircuits"></a></p>
+
+<p>
+<span class="rubric">Green &#038; Magenta Circuits</span>. It may be surprising that neither the yellow nor cyan circuit creates a green color, as they overlap over the middle span of "green" wavelengths. This indicates that reflectance at the spectrum extremes serve to <i>suppress</i> a green color perception: green only appears if we <i>remove</i> "blue" light from a green blue or "red" light from a yellow.</p></td>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridges.gif" width=200 height=281></p>
+<p class="SC">chroma by hue angle for yellow and cyan optimal circuits</p>
+</td>
+</tr>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>The green quadrant can be surveyed by starting with the type B optimal colors. Start with optimal cyan or optimal yellow, then incrementally delete wavelengths from these colors, starting at the spectrum limit until only a single "cyan" or "yellow" wavelength remains. This produces two new optimal color series, a <i>blue green circuit</i> (starting with optimal cyan and removing "blue" reflectance) and a <i>yellow green circuit</i> (starting with optimal yellow and removing "red" reflectance). These series disappear into black at the opposite white limit, and intersect at optimal green (<b>OG</b>; diagram, right).
+</p>
+
+<p>
+In either case, green appears only gradually as light from the spectrum extremes is reduced. However, because of the high <a class="text" href="color2.html#tinttest">tinting strength</a> of "blue" light in comparison to "red" light, changes in "blue" reflectance have a greater impact on color appearance. Thus, omitting the extreme 650&#150;700&#160;nm of "red" light from optimal yellow shifts the hue angle of the color by just 3&deg;, but omitting the extreme 400&#150;450&#160;nm "blue violet" light from optimal cyan shifts the hue angle by 29&deg;! 
+</p>
+
+<p>
+This greater tension between "green" and "blue" reflectance, compared with "green" and "red", yields this dominance order in the <i>tinting strength</i> of light:</p>
+<p class="CC">blue > green [yellow] > red</b>
+</p>
+
+<p>
+That is, blue reflectance has a proportionately greater effect on color appearance than green and/or yellow, and green reflectance a greater effect than red (if we extend "red" light out to 830&#160;nm).
+</p>
+
+<p>
+Note that optimal green is closer to the yellow white limit: greens as a whole have a "warm" bias, and most of the span of green hues is taken up by <i>yellow green</i> (as, for example, in this <a class="text" href="color18.html#huecategoryspacing">hue circle</a>). In fact, yellow is really a form of <a class="text" href="color12.html#satmap">luminance enhanced green</a>, as we see in the close relationship between yellow and green in natural (foliage) greens. Thus, <i>green gold</i> turns into <i>yellow</i> when the color is lightened or brightened, and <i>yellow</i> turns into green when the color is dulled or darkened. In both cases, <i>darkening</i> the color is equivalent to adding "blue" reflectance to it. (The complementary change happens to green blues, which darken into blue greens.)
+</p>
+
+<p>
+There are many ways to create a circuit over the <a class="text" href="color2.html#extraspectral">extraspectral side</a> of the color space. However an optimal color <b>mixture magenta</b> achieves peak chroma (C&#160;=&#160;116) in a mixture of "blue" 360&#150;460&#160;nm and "red" 610&#150;830&#160;nm light, which is located at CIECAM hue angle 331&deg; (dominant wavelength c519&#160;nm). This is equivalent to a <a class="text" href="color3.html#cliffprofile">type C optimal color</a> where <b>w</b> = 320&#160;nm and <b>cw</b> = 770&#160;nm. Note that roughly twice as many "red" wavelengths as "blue" are included in the magenta mixture.
+</p>
+
+<p>
+This is a nice illustration of the basic visual property that some "colors" of light exert a stronger effect in <i>color mixture</i> than they do in <i>color appearance.</i> When red and blue phosphors or reflecting surfaces are equally bright and mixed in equal proportions, the result is a <i>red violet</i> (magenta) color. Goethe named this color <i>purpur</i> and called it the <a class="text" href="goethe.html#goethewheel">acme or augmentation of red</a>. In contrast, a <i>violet</i> (purple) hue, usually judged to be the hue midway between red and blue, actually signals that "blue" light predominates in the mixture by roughly 2 to 1.
+<a name="lighthue"></a></p>
+
+<p>
+<span class="rubric">Illumination &amp; Hue</span>. It is tempting, given the connection between type B optimal colors and the separate yellow and cyan circuits, to see environmental surfaces represented perceptually as variations in orange, yellow, cyan and blue, and to see light as the contrast between green and magenta, the two colors most visible in petroleum iridescence. Significantly, a green/magenta dimension of color matching was found to be stable across a wide range of illuminances under a D65 white point. This implies it is the dynamic that controls for changes in the appearance of white as the relative sensitivity to the spectrum ends increases under dim light.</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/lightbal.gif" width=380 height=251></p>
+<p class="CC">illuminant mixture with surface optimal colors</b>
+</p>
+
+<p>
+The illuminant changes in surface colors are systematic: under green light orange, yellow and cyan become more similar, less saturated, and closer to white than blue; under magenta light all surface hues become warmer, more distinct from each other and more saturated ��151; with the exception of greens, which become duller and darker. 
+<a name="sixcolors"></a></p>
+
+<p>
+<span class="rubric">Summary of Analysis Optimal Colors</span>. The summary table (below) desribes the six analysis optimal colors. Note the basic patterns: yellow is brightest, blue darkest, with orange, green, cyan and magenta at a similar middle lightness; orange and green have the highest chroma, with yellow, cyan, blue and magenta at a similar but lower chroma.</p>
+
+<table width=100% cellpadding=8 cellspacing=0 border=1>
+<tr><td>
+<table width=100% cellpadding=3 cellspacing=0 border=0  style="font-family:Verdana; font-size:12px; color:#333366;">
+<tr><td colspan=6 align=center height=30><span style="font-family:Verdana; font-size:16px; font-weight:bold; color:#333366;">six analysis optimal colors</span></td></tr>
+<tr align=center><td rowspan=2></td><td rowspan=2><font size=-1><i>boundary<br>wavelengths<br>(nm)</i></td><td rowspan=2><font size=-1><i>dominant<br>wave-<br>length</i></td><td colspan=3 valign=bottom><b>CIECAM</b></td></tr>
+<tr align=center><td><b>J</b></td><td><b>C</b></td><td><b>h</b></td></tr>
+<tr align=center><td align=left>optimal orange<br><font size=-1><i>yellow orange 
+PY153</i></td><td>565-830</td><td>594</td><td>71</td><td>137</td><td>65</td></tr>
+<tr align=center><td align=left>optimal yellow<br><font size=-1><i>yellow PY3</i></td><td>485-830</td><td>570</td><td>104</td><td>97</td><td>105</td></tr>
+<tr align=center><td align=left>optimal green<br><font size=-1><i>green PG36+PY3</i></td><td>485-565</td><td>525</td><td>71</td><td>130</td><td>147</td></tr>
+<tr align=center><td align=left>optimal cyan<br><font size=-1><i>green blue PG50</i></td><td>360-565</td><td>482</td><td>77</td><td>87</td><td>205</td></tr>
+<tr align=center><td align=left>optimal blue<br><font size=-1><i>violet blue PB29</i></td><td>360-485</td><td>458</td><td>23</td><td>98</td><td>253</td></tr>
+<tr align=center><td align=left>optimal&#160;magenta<br><font size=-1><i>red violet PV49</i></td><td>360-485,<br>565-830</td><td>c510</td><td>78</td><td>84</td><td>338</td></tr>
+<tr align=center><td align=left><i>mixture&#160;magenta</i></td><td><i>360-460,<br>610-830</i></td><td><i>c519</i></td><td><i>41</i></td><td><i>116</i></td><td><i>331</i></td></tr>
+<tr align=center><td align=left colspan=6><b>Note</b>: All values based on 10&deg; (1964) Stiles & Burch colormatching functions (360-830&#160;nm), scaled in CIECAM02 with EE illuminant.</td></tr>
+</table>
+</td></tr>
+</table>
+<br>
+<p class="imgC"><a name="sumfigure"><img src="https://www.handprint.com/HP/WCL/IMG/opsamp.gif" width=379 height=279></a></p>
+<p class="CC">optimal color samples and distribution around light/dark and warm/cool contrasts</b>
+</p>
+
+<p>The graphic suggests the hue and lightness appearance of these colors arranged in spectral order (diagram above, top), although the actual optimal colors would appear much more intensely saturated.
+</p>
+
+<p>
+If we locate the six optimal colors on a long/short wavelength or "warm/cool" axis (<b>optimal orange/optimal blue</b>), and a photopic luminance or "light/dark" axis (<b>optimal green/optimal magenta</b>; diagram above), the optimal analysis colors define a roughly symmetrical arrangement of the subtractive <a class="text" href="color5.html#subdemo">CYM</a> "primaries", but an asymmetric arrangement of the additive <a class="text" href="color5.html#additiveprimaries">RGB</a> "primaries". This occurs because adding together all the "red" wavelengths above 570&#160;nm does not produce the prototypical <b>R</b> primary (a <a class="text" href="https://www.handprint.com/HP/WCL/IMG/RC/red.html">"spectrum" red</a> or <i>orange red</i>) but a gorgeous <i>yellow orange</i> instead.
+</p>
+
+<p>
+Finally, as shown in the diagram, the six analysis colors are systematically related to the <a class="text" href="color4.html#abney">Abney effect</a>, which causes the hue of surface colors to shift slightly as chroma increases &#151; as can be seen, for example, in <a class="text" href="color7.html#CIECAMab">Munsell color samples</a>. The simple rule: hues near the white or black limits shift toward them as chroma increases.<a name="70circuit"></a></p>
+
+<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>a 70&#160;nm optimal circuit</h3>
+
+<p><img src="space.gif" width=90 height=1 align=left><p>Next, we can follow the integration of color around the hue circle by sliding an optimal color "window" <i>across</i> the entire spectrum.
+<br><a name="balance2"></a></TD>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/opgrn.gif" width=200 height=223></p>
+<p class="SC">two circuits through optimal green</p>
+<p class="subSC">produced by removing "blue" light from optimal cyan (<b>OC</b>) or "red" light from optimal yellow (<b>OY</b>); the circuits intersect at optimal green (<b>OG</b>)</p>
+</td>
+</TR>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>This analysis requires arbitrary spectrum end wavelengths and an arbitrary window width (<b>w</b>). I use the "blue violet" (415&#160;nm) and "orange red" (650&#160;nm) black limits as spectrum boundaries to focus on the effects of hue mixture and to eliminate the very low luminance of extreme "red" and "violet" light. I use a window 70&#160;nm wide, which (in the 415&#150;650&#160;nm spectrum) fits within the span of optimal blue (70&#160;nm), optimal green (80&#160;nm) and optimal orange (85&#160;nm). The spectral position of the window is identified by its <i>center wavelength</i> (<b>cw</b>), which is 35&#160;nm from the window limits (diagram, right). 
+</p>
+
+<p>
+This optimal circuit, which includes the "extraspectral" (<a class="text" href="color3.html#cliffprofile">type C</a>) optimal colors produced by inclusion of both short and long wavelengths in the 70&#160;nm window, is shown in the diagram (below).</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance2.gif" width=380 height=366></p>
+<p class="CC">70&#160;nm optimal circuit</p>
+<p class="subCC">optimal color circuit 70&#160;nm wide across wavelengths 415&#150;650&#160;nm (cw&#160;450&#150;615&#160;nm) including extraspectral mixtures (cw&#160;415&#150;450&#160;nm and cw&#160;615&#150;650&#160;nm), in CIECAM under EE illuminant</p></td>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridge2.gif" width=200 height=137></p>
+<p class="SC">70&#160;nm optimal color between the 415&#150;650&#160;nm black limits</p>
+<p class="subSC">the center wavelength (<b>cw</b>) located<br>at 565&#160;nm with window spanning<br>530&#150;600&#160;nm</p>
+</td>
+</tr>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>The variations in lightness across this 70&#160;nm circuit resemble a sine wave (diagram, right), with maximum lightness at the <b>L</b> cone peak sensitivity (cw&#160;565&#160;nm, CIECAM hue angle 110&deg;) and minimum lightness at the <b>S</b> cone peak sensitivity (cw&#160;445&#160;nm, hue angle 262&deg;). This again illustrates the importance of the <b>L&#150;S</b> opponency as the anchor for both <a class="text" href="color2.html#tilting">luminance and chromaticity</a> contrasts in surface colors. Note again (diagram, above) that, at the level of cone responses, the <b>L&#150;S</b> contrast is bent toward green by the <i>green yellow</i> location of the <b>L</b> cone peak sensitivity. 
+</p>
+
+<p>
+The 70&#160;nm circuit indicates that the transitions across green and violet are seamless and strongly chromatic, though the chroma of yellow greens, yellows and spectrum reds is about 40% greater than the chroma of blue greens, blues and purples. The <i>perceptual potential</i> for extreme chroma sensation in surface colors is perceptually biased toward yellow (<b>b+</b>) reflectance and high luminance. If we do not see extremely saturated green surfaces, this is due to a chemical limitation or natural scarcity in the maximum chroma that surfaces present to the eye. 
+</p>
+
+<p>
+I've mentioned the high tinting strength of "blue violet" light, and the diagram (above) shows the effect of adding 15&#160;nm blocks of short wavelength light, or all light below 445&#160;nm, to the 70&#160;nm colors from cw&#160;615&#160;nm (580-650&#160;nm) to cw&#160;525&#160;nm (490-560&#160;nm, ~optimal green). The main effect is the increased tinting strength of wavelengths closer to the <b>S</b> cone peak (at 445&#160;nm). But these effects are not additive: "blue" light becomes proportionately less potent as more of it (360-445&#160;nm) has been added to the warm color. The "blue violet" light also has a much stronger impact on extreme "red" light than on more luminous "green" light.
+</p>
+
+<p>
+The diagram also shows the effect of all light above 655&#160;nm to the 70&#160;nm colors from cw&#160;525&#160;nm (490-560&#160;nm, ~optimal green) to cw&#160;450&#160;nm (415-485&#160;nm, ~optimal cyan). This demonstrates the much weaker tinting strength of "red" light on the short wavelength half of the spectrum, despite the fact (as shown by the luminance curve, above right) that "red" light is much more luminous than "blue" light.
+</p>
+
+<p>
+The shift of "blue" tinted colors is directly toward the peak sensitivity of the <b>S</b> cone (blue triangle), while the shift caused by "red" light is not upward toward the peak <b>L</b> cone sensitivity (red triangle) but diagonally toward the point of peak chroma in the yellow circuit, at hue angle 45&deg; (<a class="text" href="#balance1">diagram, above</a>). This again illustrates the clockwise "remapping" of the <b>L</b> cone contribution to the hue circle.<a name="optimalhues"></a></p>
+
+<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>additive changes in hue &#038; luminance</h3>
+
+<p><img src="space.gif" width=90 height=1 align=left><p>The previous section considered the color space "horizontally", by shifting a 70&#160;nm window across the spectrum. Now we consider the color space <i>vertically,</i> by centering the optimal color on a single wavelength, then adding wavelengths symmetrically on both sides of it.</p></td>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/jopt.gif" width=193 height=191></p>
+<p class="SC">CIECAM lightness of<br>70nm optimal circuit</p>
+<p class="subSC">area of "extraspectral" ("blue"+"red") mixtures in pink</p></td>
+</tr>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>The method is to establish an optimal color centered on a fixed wavelength (in 10&#160;nm steps across the spectrum from 360&#160;nm to 830&#160;nm), then to vary the width (<b>w</b>) of the optimal "window" from &#177;5&#160;nm (total width 10&#160;nm) to &#177;225&#160;nm (total width 450&#160;nm), again in 10&#160;nm increments (diagram, right). This increases the luminance of the optimal color from a very narrow spectral band up to a near white.
+</p>
+
+<p>
+The diagram (below) shows the results of this procedure. </p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance3.gif" width=378 height=371></p>
+<p class="CC">optimal colors of fixed wavelength location</p>
+<p class="subCC">Stiles &#038; Burch 1964 (10&deg;) colormatching functions in CIECAM under EE illuminant; optimal colors defined as blocks of 100% reflectance from 10&#160;nm to 450&#160;nm wide that are centered on fixed wavelengths spaced 10&#160;nm apart from 360&#160;nm to 830&#160;nm
+</p>
+
+<p>The diagram shows three aspects of the color space:
+</p>
+
+<p>
+&#149;&#160;The 10&#160;nm circuit (blue circles) essentially outlines the <b>spectrum locus</b> in surface colors. This circuit is black in the extraspectral hues but rises through blues and oranges to a peak of chroma and luminance in the greens.
+</p>
+
+<p>
+&#149;&#160;The lines of <b>centered reflectance</b> (constant central wavelength, blue lines) show the hue and chroma trace for each of the central wavelengths. These depart from the sprectrum locus and follow a curving path as the total centered reflectance increases the luminance. The blue dots indicate 10&#160;nm increments in the reflectance window.
+</p>
+
+<p>
+&#149;&#160;The lines of <b>complete reflectance</b> (white circles) represent the near white convergence of the hue lines at 450&#160;nm. (All hue lines converge to a single <i>white point</i> at 470&#160;nm.) This shows that blues and purples are laggard to reach white, and that hue centers from orange red to yellow form a spike of pale pure yellow.
+<br><a name="satcircuit"></a></td>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridge3.gif" width=200 height=124></p>
+<p class="SC">fixed wavelength optimal color of variable width</p>
+<p class="subSC">the fixed wavelength at 650&#160;nm with variable width (<b>w</b>) shown at 200&#160;nm (550&#150;750&#160;nm)</i></td>
+</tr>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>The contours of these fixed wavelength lines remains constant when displayed as saturation (which takes into account the luminance of the color) rather than chroma (diagram, right). 
+
+</p>
+
+<p>
+The first impression is of complex loops, but these have a precise structure. There are six points where the centered reflectance maintains a nearly constant hue angle: at 485, 530 and 570&#160;nm (red dots). These are identical with the cyan, green and yellow optimal colors. All hues within this hue span loop toward cyan or yellow as the centered luminance increases, indicating that the "blue" or "red" end of the spectrum dominates the mixture, but by only a small amount. 
+</p>
+
+<p>
+On either side, the two quadrants of "blue" and "orange" wavelengths shift strongly toward the cyan or yellow white limit as luminance increases, causing them to assume a cyan or yellow hue as the luminance approaches white. This shift is quite large, as shown for the wavelengths 650&#160;nm and 450&#160;nm (diagram, right). 
+</p>
+
+<p>
+It is clear that optimal cyan, green and yellow define very stable hue lines in the color space. These hues remain constant as reflectance around them is increased. In contrast, optimal blue and orange are shifted very far from the lines of constant hue (at 665&#160;nm and 390&#160;nm), and these color shift very strongly toward green as the luminance increases: they occupy the dim ends of the spectrum, so "green" wavelengths have a very strong effect on the hue.
+</p>
+
+<p>
+Finally, the extraspectral space centered between 730&#160;nm and 820&#160;nm produces the red violets, violets and blue violets, culminating at 830&#160;nm in a blue violet that lies along the cyan black limit. The hues throughout this fourth quadrant vary between as the luminance increases; The hue closest to optimal magenta is around a central wavelength of 800&#160;nm, very far in the infrared, which makes magenta a dull color in surfaces but a radiant color in light. This fourth quadrant expresses the balance between short and long wavelength light as transitions between red violet or blue violet, which have their effect principally in desaturating yellow.
+</p>
+
+<p>
+On the one hand are the cyan, green and yellow anchors which are robust to luminance increases, and on the other are blue, magenta and orange that are very sensitive to luminance increases and (in orange and magenta) in the relative proportions of short and long wavelengths.</p></td>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/balance6.gif" width=200 height=200></p>
+<p class="SC">fixed wavelength optimal colors in the CIECAM saturation metric</b></td>
+</tr>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>CIECAM attempts to be a <i>uniform color space,</i> so that an equal spatial distance between two colors represents an equal perceptual difference between them. However it is instructive to keep in mind the <a class="text" href="color6.html#xycurves">xy chromaticity diagram</a> and the large portion of the space devoted to green colors and the substantial smaller area alloted to "blue" colors (diagram, below).</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/CIE1964.jpg" width=380 height=387></p>
+<p class="CC">CIE 1964 xy chromaticity diagram</p>
+
+<p>On the one hand, the green colors are expanded and the blue colors reduced because of the luminance contrast between them; the red colors are expanded through chromatic sensitivity. This indicates that we see red and green colors as dull due to their material properties of dullness, and that we see blues as intense due to their high tinting strength. 
+</p>
+
+<p>Finally, the expanded reflectance window increases the luminance (lightness) of the color in systematic ways.</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance5.gif" width=380 height=183></p>
+<p class="CC">luminance contours in optimal colors</p>
+<p class="subCC">six circuits of optimal colors of widths <b>w</b> = 10, 90, 180, 270, 360 and 450&#160;nm in CIECAM under EE illuminant</p>
+
+<p>Here is the luminance on each side of the color space.</p>
+
+<p>Here again, we have to be careful of how we interpret these diagrams, because they show how CIECAM represents the procedure we have described, not how a visual color matching task would show.<a name="naturalchroma"></a></p>
+
+<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>natural chroma benchmarks</h3>
+
+<p><img src="space.gif" width=90 height=1 align=left><p>The lightness variations of surface colors are conventionally described in two ways: as a physically possible perceptual range (roughly from <b>L*</b> = 95 to 5, a luminance ratio of about 150:1) and as an average or middle value of environmental surfaces (typically <b>L*</b> = 50, an average reflectance of about 19%).
+</p>
+
+<p>
+What are comparable benchmark values for chroma? Chroma has a different perceptual structure than lightness, since it is anchored in an achromatic value and increases into different dimensions of hue. But we can still ask what is an extreme upper limit for chroma, and what is a useful "natural" average value.
+</p>
+
+<p>
+Perceptual psychologists have traditionally used <a class="text" href="color3.html#purechroma">spectral hues</a> as the standard maximum value for hue purity. But as we rarely experience spectral hues, and perceive surface colors very differently from light colors, spectral hues have a limited technical application to define the response contours of photoreceptor cells and opponent pathways.
+</p>
+
+<p>
+As I explain in my discussion of <a class="text" href="color3.html#huepurity">hue&#160;purity</a>, surface color chroma seems perceptually scaled to the physical limits of surface colors, which are defined by <a class="text" href="color3.html#optimalstimuli">optimal colors</a>. But optimal colors are impossible surfaces &#151; perfect absorbers and reflectors of light, scattering nothing at their surface and leaking no light energy into the infrared &#151; so while the chroma they define can be taken as the maximum chroma value, they do not help with the problem of "average" chroma values for surface colors.
+</p>
+
+<p>
+In lieu of a photographic survey of natural surfaces, a simple expedient is to examine the chroma distribution of 175 commercial watercolor pigments, including several dozen pigments manufactured from <a class="text" href="watere.html">iron oxides</a> and <a class="text" href="primatek.html#minerals">silicate compounds</a> common in the earth's crust. When these are sorted by CIECAM chroma, they produce a surprisingly linear distribution with a median chroma value of about 55 and a maximum value of about 95.</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/pigsort.gif" width=380 height=311></p>
+<p class="CC">chroma distribution in watercolor pigments</p>
+<p class="subCC">each bar represents a single pigment; bars are color coded into six hue categories (red, orange, yellow, green, blue and violet)
+</p>
+
+<p>All pigments listed as "moderately intense" in the <a class="text" href="waterfs.html">guide to watercolor pigments</a> are representative of this chroma range, including: copper azomethine green (<a class="text" href="watery.html#PY129">PY129</a>), chrome titanate ochre (<a class="text" href="watere.html#PBr24">PBr24</a>), quinacridone orange (<a class="text" href="watere.html#PO48">PO48</a>), perylene maroon (<a class="text" href="waterr.html#PR179">PR179</a>), quinacridone violet (<a class="text" href="waterc.html#PV19B">PV19</a>), cobalt violet light (<a class="text" href="waterv.html#PV49">PV49</a>), ultramarine violet (<a class="text" href="waterv.html#PV15">PV15</a>), phthalo blue (<a class="text" href="waterb.html#PB15:3">PB15:3</a>), cerulean blue (<a class="text" href="waterb.html#PB36">PB36</a>), cobalt teal blue (<a class="text" href="waterg.html#PG50">PG50</a>) and phthalo green YS (<a class="text" href="waterg.html#PG36">PG36</a>).
+</p>
+
+<p>
+To provide a visual example, the hue circle (diagram, below) shows hues as they appear at two "middle" CIECAM lightnesses (<b>J</b> = 62 and 45) at constant chroma (<b>C</b> = ~55). These nuance colors can be matched by replacing each wavelength of 0% reflectance in the 70&#160;nm circuit with reflectance of between 30% to 60% (depending on the hue). This represents a substantial amount of <a class="text" href="color10.html#blackness">"white" light scattering</a>, but high surface scattering is typical of most unwetted mineral surfaces.</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/chrom8.jpg" width=380 height=380></p>
+<p class="CC">a natural chroma benchmark</p>
+<p class="subCC">munsell hues at chroma 10 and lightness 62 (outer ring, average CIECAM chroma 54) and lightness 45 (inner ring, CIECAM chroma 56); background lightness 50 (periphery) and 30 (center)
+</p>
+
+<p>I offer the hypothesis that an environment consisting entirely of colored surfaces at a chroma of 55 would appear subjectively "very colorful" and that chroma variations between 0 and 55 would be judged appealing and subdued. In contrast to this range of <i>structural chroma</i> associated with most natural and animal colors, chroma values above 55 would comprise the <i>display chroma</i> associated with pigmented surfaces in biology and advertising. Note in the pigment distribution (above) that this includes a disproportionate number of yellow and red pigments, reaffirming the chromatic bias toward luminous red, yellow and yellow green colors inherent in human color vision.<a name="structurefunction"></a></p>
+
+<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>what is the perceptual structure for?</h3>
+
+<p><img src="space.gif" width=90 height=1 align=left><p>Now let's briefly compare the CIECAM surface color white limits at 485&#160;nm and 565&#160;nm with the five most significant perceptual landmarks identified in color vision research &#151; cone <a class="text" href="color1.html#normconesens">peak sensitivity</a>, color vision <a class="text" href="colorb.html#threekinds">white points</a> or the wavelengths where the responses of two cones are equal (as measured in persons with colorblindness); the bands of maximum <a class="text" href="color2.html#Wpattern">hue discrimination</a>; the location of the four <a class="text" href="color2.html#opponentcurves">unique hues</a>; and <a class="text" href="color2.html#balancepoints">balance points</a> on the opponent dimensions. These are located in the hue circle diagram (<a class="text" href="#balance1">above</a>) and summarized in a simpler form in the diagram (below).</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance1a.gif" width=372 height=364></p>
+<p class="CC">perceptual landmarks &#038; the optimal circuits</p>
+<p class="subCC">see text for explanation</p>
+
+<p>On first examination, the black limits map directly onto the extreme long and short wavelength boundaries in the sensitivity of the <b>L</b> cone. Other than that, we cannot point to the cone fundamentals, opponent dimensions or areas of peak hue discrimination as the anchor for both of the surface color white limits. 
+</p>
+
+<p>
+If we consider the white limits separately, the yellow limit at 565&#160;nm is most closely related to the <b>L</b> cone peak response, the <b>y+</b> end of the <b>y/b</b> opponent dimension, and the <b>L,M</b> (tritanopia) white point. Optimal yellow (570&#160;nm) is also approximately the point where the <b>S</b> cone no longer contributes to hue discrimination, and the point where saturation induced additivity errors (the <a class="text" href="color2.html#HKeffect">Helmholtz-Kohlrausch effect</a>) are at a minimum. Thus, several levels of visual structure converge at the yellow white limit. 
+</p>
+
+<p>
+In contrast, the cyan white limit at 485&#160;nm is not associated with the <b>M,S</b> or <b>L,S</b> white points or the <b>g+</b> end of the <b>r/g</b> opponent dimension; it is however embedded in an area of maximum hue discrimination as shown in <a class="text" href="color2.html#Wpattern">monochromatic color matching</a>, in <a class="text" href="color2.html#huecancel">hue cancellation mixtures</a>, and in areas of increased <a class="text" href="color2.html#huespace">spectral hue spacing</a> in CIECAM.
+</p>
+
+<p>
+Areas of <i>minimum</i> spectral <a class="text" href="color2.html#tinttest">tinting strength</a> appear at both the yellow and cyan white limits. This reaffirms the idea that these are "balance points" between cones, wavelengths that have relatively less "leverage" in tinting the color of lights or surfaces.
+</p>
+
+<p>
+If we step back and look at the yellow and cyan circuits within the hue circle (<a class="text" href="#balance1">diagram, above</a>), it is obvious that they define a <a class="text" href="color13.html#compprobs">complementary color</a> contrast:
+</p>
+
+<p>
+&#149;&#160;Each neutralizes the other: the yellow circuit whitens as its boundary wavelength approaches the cyan white limit, and the cyan circuit as its boundary wavelength approaches the yellow white limit.
+</p>
+
+<p>
+&#149;&#160;The white limit of each circuit is opposite the black limit of the other circuit.
+</p>
+
+<p>
+&#149;&#160;The points of maximum chroma in each circuit &#151; at hue angles 45&deg; ("orange") and 230&deg; ("blue") &#151; are CIECAM visual complements, as are optimal orange and optimal blue, the colors created by all the wavelengths within the two spectrum end segments.
+</p>
+
+<p>
+Finally, research that examines the <a class="text" href="color2.html#greendiffs">individual differences</a> or disagreement between people in the identification of the four unique hues &#151; red, yellow, green and blue &#151; indicates that the least variation appears in the identification of yellow, the greatest variation in the identification of green, with red and blue in between.
+</p>
+
+<p>
+If we combine these strands of evidence &#151; the convergence of structure around optimal yellow, the opponency between the two optimal circuits, and the individual variation in unique hue identification &#151; one can hypothesize an <i>adaptation model</i> of color vision (diagram, below). This model assumes the genetic foundations of color vision are fine tuned by environmental stimulation during early development, and that the dimensions of developmental change occur within the same mechanisms that produce <a class="text" href="color4.html#sensitivity">luminance adaptation</a> and <a class="text" href="color4.html#chromaadapt">chromatic adaptation</a>.</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/functmod.gif" width=367 height=363></p>
+<p class="CC">an adaptation model of color vision opponency</p>
+
+<p>The yellow balance (<b>y+</b>) anchors the entire system, and is formed by adjusting the relative contrast weights assigned to the <b>M</b> and <b>L</b> cone outputs (<b>1</b>). (Summing the two outputs produces photopic <a class="text" href="color1.html#newpsf">luminosity function</a>.) There is good evidence that this adjustment neutralizes the chromaticity of external <a class="text" href="color12.html#daylocus">natural light</a>, compensates for the optical effects of <a class="text" href="color1.html#edges">chromatic aberration</a> and makes achromatic the tinting caused by <a class="text" href="color1.html#macular">prereceptoral filtering</a>. These multiple convergence criteria produce the highly consistent anchoring of unique yellow, optimal yellow and the <b>y+</b> end of the <b>y/b</b> opponent dimension. 
+</p>
+
+<p>
+The next adjustment, to create complementarity, is the alignment of the <b>S</b> cone outputs to neutralize optimal yellow, which amounts to placing the cyan black limit directly opposite the yellow white limit. This probably occurs by adjusting the negative correlation between the <b>L</b> and <b>S</b> cone outputs (<b>2</b>), as found in modern color models (for example in <a class="text" href="color2.html#postzone">CIECAM</a>) and inherited from the <b>y/b</b> opponency of <a class="text" href="color1.html#dichromat">primate dichromatism</a>. Because internal optics and the "yellow" filtering by macular pigment change substantially with age and have a very large <a class="text" href="color1.html#macular">filtering effect</a> in the wavelengths of <b>S</b> cone sensitivity, this adjustment is considerably more variable in its effects on blue color perception. This produces the large displacement in the <b>b+</b> neutral point and the variability in unique blue. The adjustment also produces a relatively stable unique red (<b>3</b>), an extraspectral hue at right angles to unique yellow, where it limits the neutralizing effect of "blue" light in "warm" (red, orange and yellow) hue perception.
+</p>
+
+<p>
+These two adjustments force the accommodation between the <b>M</b> and <b>S</b> cones and the location of their balance point (<b>4</b>), which must be shifted by the two previous adjustments. As we would expect, because both the <b>L</b> and <b>S</b> cones are "mobile" in this model, the cyan white limit is much less visually salient than yellow, and the <b>L,S</b> balance point (the white point in deuteranopia) is <a class="text" href="colorb.html#threetypes">more variable</a> than the <b>M,S</b> balance point (the white point in protanopia). As a result the perception of unique green is highly variable across individuals. Notice too that the negative adjustment between <b>L</b> and <b>M</b>, and then between <b>L</b> and <b>S</b>, has forced the <b>b+</b> and <b>g+</b> opponent ends (as measured in neural pathways, not in surface color perception) toward yellow, as a hue somewhere between <i>green blue</i> and <i>blue green</i> is the visual complement of unique red. 
+
+</p>
+
+<p>
+The <b>L</b>, <b>M</b> and <b>S</b> cones contribute to color mixture in very different ways. The mixture effects of the <b>L</b> and <b>M</b> cones have been "remapped" through complex combinations to provide all three dimensions of the color space. In contrast the <b>S</b> cone outputs either play no role at all (in <a class="text" href="color1.html#newpsf">luminance perception</a>) or act as a stable contrast anchor for both the <a class="text" href="color2.html#bluewgts">y/b and r/g opponent dimensions</a>. In this anchoring role, small quantities of "blue violet" light function as a <i>potent tint</i> (for example, as a spike of illuminance in an otherwise "white" fluorescent light, or as a "brightener" in white colors), and larger quantities of "blue" light <i>as an illuminant,</i> where a distinct blue color is imparted to reflecting surfaces.
+</p>
+
+<p>
+If we anchor the hue circle on optimal yellow (at 90&deg;), we find a symmetrical placement of optimal green and orange at about 40&deg; on either side of optimal yellow, and optimal green and optimal magenta are in near perfect opponency. These seem to be the critical compass points in color vision. The green/magenta opponency replicates very well the large <a class="text" href="color4.html#trezona">green/magenta component</a> that stabilizes maximum saturation color matching across mesopic and scotopic vision (first identified by Trezona). This mechanism would serve to balance the <b>L,M</b> outputs (green) against the <b>L,S</b> outputs (magenta) across different <a class="text" href="color4.html#yellowbalance">illuminance levels</a>: an adaptation toward <i>green</i> would occur at high illuminances and toward <i>magenta</i> at low illuminances.
+</p>
+
+<p>
+One more point about green. Using the logic that visual complementary <i>light mixtures</i> must always add to a complete "white" spectrum, the cardinal <b>visual complementary contrasts</b> defined by this analysis are <i>yellow orange:green blue</i> (optimal orange + optimal cyan = white), <i>green:red violet</i> (optimal green + optimal magenta = white), and <i>violet blue:yellow</i> (optimal blue + optimal yellow = white). However, only the <i>green</i>:<i>red violet</i> contrast is a visual complement in CIECAM or in the Munsell Color System; the other two are "bent" by 32&deg; (yellow/blue) or 40&deg; (orange/cyan) toward optimal green. This creates the well known discrepancy between <a class="text" href="color16.html#whydifference">visual and subtractive mixture</a> in complementary colors: the "warm" color in the pair of <i>mixing</i> complements must contain less green (visually, more red) than the surface color matching the <i>visual</i> complements.
+</p>
+
+<p>
+Reasoning from surface color perception rather than light perception, and using adaptation as a functional premise for visual structure, there is a <b>"green/extreme" tension</b> between luminance weighted "green" reflectance at the center of the spectrum and chromaticity weighted "blue" or "red" reflectance at the short or long wavelength extremes of the spectrum.</p></td>
+<td colspan=2></td>
+</tr>
+
+<tr>
+<td colspan=2></td>
+<td valign=top align=left><p>Finally, we can identify the "metacomplementary" orange/blue or <a class="text" href="color12.html#warmcool">warm/cool contrast</a> with the opposition between the yellow and cyan circuits, which appears in the near complementary relationship of the <i>orange yellow</i> and <i>violet blue</i> hues created by summing the reflectance between each circuit's black and white limits (image, right).</p>
+
+<p>This synthesis shows that color vision is fundamentally organized in relation to the spectrum ends, contrasting short and long wavelength light into two opposing spectrum signals, symbolized perceptually as <i>yellow</i> and <i>cyan.</i> This reflects the evolutionary precedence of <a class="text" href="color1.html#dichromat">dichromatic vision</a> that we inherited from our primate ancestors.
+</p>
+
+<p>
+<b>The Y/B Opponency</b>. Roger Shepard and others have observed that the <a class="text" href="color1.html#psf">photopic sensitivity function</a> (<b>L+M</b>) handles luminance variations within an established luminance adaptation level, and the <a class="text" href="color1.html#dichromat">y/b opponent function</a> handles <a class="text" href="color4.html#chromaadapt">chromatic adaptation</a> to natural variations in daylight. <a class="text" href="color1.html#solarlight">Natural light</a> can be attributed to different sources at opposite ends of the spectrum. The long wavelengths (heat) arise from <b>sunlight</b>, which has a correlated color temperature (CCT) that resembles most forms of <a class="text" href="color12.html#CCT">incandescent light</a>; the short wavelengths are contributed by <b>skylight</b> which has a CCT from 7500 K&deg; to above 20,000 K&deg; in <a class="text" href="color12.html#wcequalsyb">middle blue</a>, which is deficient in long wavelength radiance due to Rayleigh scattering. There are many other kinds of light, but sun, fire and sky are the predominant light sources illuminating the surfaces around us.
+</p>
+
+<p>
+The yellow and cyan optimal circuits illustrate the importance of this contrast. The <b>b</b> end of the <b>y/b</b> opponent contrast is bent away from opposition to yellow toward the hue of sky blue. Optimal yellow is not a "pure" yellow but a green yellow, the hue of direct sunlight.
+</p>
+
+<p>
+<b>The R/G Opponency</b>. Shepard also suggests the <a class="text" href="color1.html#trichromat">r/g opponent function</a> handles adaptation to dust and smoke scattering, which reddens light. However the red/green variance in natural light is typically small, and the experience of both sunset light and smoke reddened sunlight is lurid and striking, evidence that the eye cannot compensate for red light very well; the r/g contrast is implicated in many other functions, for example in enhanced <a class="text" href="color4a.html#opponentfrequency">chromatic contrast</a>. The magenta/green contrast also reappears in many situations of luminance adaptation or luminance contrast. There is the green shift in the complement to "blue violet" light under high luminance (the <a class="text" href="color4.html#yellowbalance">Wright-Brindley effect</a>), the very large green vs. magenta contrast found by Trezona in her studies of <a class="text" href="color4.html#trezona">tetrachromatic color matching</a>, the appearance of <a class="text" href="goethe.html#plate4">green/magenta bands</a> in high frequency diffraction and refraction images of light/dark bands, and the green shift (the <a class="text" href="color1.html#mesopic">Purkinje shift</a>) during mesopic to scotopic adaptation.
+<a name="rolemcone"></a></p>
+
+<p>
+<b>Dichromacy and the M Cone</b>. At first blush the trichromatic innovation would seem to involve the appearance of the <b>M</b> cone, <a class="text" href="color1.html#3cones">genetically similar</a> to its parent, the <b>L</b> cone. The <b>M</b> cone provides a subordinate chromatic sensitivity across the limited middle spectrum area we have already defined as <a class="text" href="#sixcolors">optimal green</a> (485&#150;565&#160;nm; diagram below). The comparatively small change in cone response proportions across the "green" wavelengths makes this an area of poor hue discrimination.</p>
+
+<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/satsens.gif" width=369 height=278></p>
+<p class="CC">proportional cone outputs to spectral wavelengths</p>
+<p class="subCC">in the <a class="index1" href="color1.html#areaconesens">10&deg; equal area cone fundamentals</a>
+</p>
+
+<p>However, recent studies of hue labeling in <a class="text" href="colorb.html#huecancel">color deficient</a> subjects suggest a complex relationship between individual cones and the colormaking attributes:
+</p>
+
+<p>
+So how does the <b>M</b> cone enter the picture? 
+</p>
+
+<p>
+The dominant wavelength of optimal green (525&#160;nm) matches the average value for <a class="text" href="color2.html#greendiffs">unique green</a> in a recent study; the two green circuits reach peak chroma at 508&#160;nm and 558&#160;nm, the <a class="text" href="color2.html#greendiffs">range of wavelength choices</a> for unique green in the same study.
+</p>
+
+<p>
+The discussion above suggests that the <b>L+M</b> cones are the anchor of the yellow circuit; unique yellow and the tritanopia white point have been shifted to one side of the yellow circuit, presumably to balance the evolutionary appearance of the <b>M</b> cone.
+<a name="cherries"></a></p>
+
+<p>
+<b>Cherries &#038; Leaves</b>. The story currently popular in academe, that the r/g opponency evolved so that our primate ancestors could "find cherries among the leaves" seems a thin reed to explain so many visual functions and adaptations. If anything, the precise coincidence between the yellow circuit peak chroma (CIECAM HA&#160;= 45&deg;) and the average <a class="text" href="tech35.html#skintones">hue of human flesh</a> (HA&#160;= 43&deg;), and the profound significance humans place on skin appearance in racial identification, health assessment, ornamentation and sexual selection, strongly imply that trichromacy has a fundamentally social origin, decoupling social response from illuminant adaptation.
+</p>
+
+<p>
+<b>Chroma</b>. Considered as an adaptive feature of color vision, what is chroma for? We can of course refer the the variations in maximum chroma across hues (as mapped in the 70&#160;nm optimal circuit, <a class="text" href="#balance2">diagram above</a>) to the receptor structure of color vision. But the question is, why are receptors structured in this way?
+</p>
+
+<p>
+One possibility is that we are tuned to perceive very high chroma to discriminate among objects with very high chroma. This is the "cherries among the leaves" hypothesis for red hues. But this does not explain our extreme chroma sensitivity in short wavelengths, which includes purples that almost never appear in nature.
+</p>
+
+<p>
+I prefer the alternative, that we are tuned to perceive very high chroma in hues where <i>low chroma</i> discrimination is important. This suggests that we are sensitive to blue violet light so that we can respond to very small variations in its proportion in natural light, or that we are most sensitive to orange hues so that we can respond to very small variations in the (dull) tints of human skin.<a name="summary"></a></p>
+
+<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>summary</h3>
+
+<p><img src="space.gif" width=90 height=1 align=left><p>In particular, luminance and spatial contrasts have a dominant role in the perception of surface colors. Isolated light mixtures are easier to manipulate and measure as color stimuli, and in principle can stimulate to the limits of the visual system, and many generalizations about color vision are based on them. But care must be taken to distinguish clearly between spectral colors and surface colors when reading or thinking about color, or using color principles in design.
+</p>
+
+<p>
+This analysis does not recover anything resembling the <a class="text" href="color3.html#colormaking">colormaking attributes</a> or the opponent functions. The fundamental dynamics of color perception do not appear to be based on these. Hue discrimination and the HK effect show that hue and chroma, and chroma and brightness, are functionally interdependent at several stages of color vision. The colormaking attributes are meaningful when used in combination to describe, model or predict the conscious experience of color, but they are weak when considered as abstract dimensions of color &#151; especially when used to describe lightness or brightness separate from hue and chroma.
+</p>
+
+<p>
+Both <i>violet</i> (purple) and <i>red violet</i> (the boundary hue between <i>violet</i> and <i>red</i>) have been neglected in color vision research. In part this is because they are not found in the visible spectrum, and therefore have been assumed to be outside the adaptation logic of the visual system; and in part because they are not among the "primitive" color terms in natural color lexicons, and therefore less relevant to issues of color standardization and communication. For similar reasons, the "in between" boundary hues <i>green yellow, green blue</i> and <i>red violet</i> have been ignored in favor of prototypical unique hues <i>yellow, blue, green</i> and <i>red.</i> The analysis described above suggests the potential importance of these extraspectral and boundary hues to the investigation of visual structure and function. 
+</p>
+
+<p>
+Response compression exerts its effects throughout the visual system. In lightness perception, response compression expands lightness contrast in low reflectance surfaces, minimizes lightness contrast in high reflectance surfaces, and represents most of the increments of an equal interval luminance scale as values above a medium gray. In hue purity perception, response compression expands chromatic contrast in saturated colors, minimizes chromatic contrast in dull colors, and represents most of the increments of an equal interval excitation purity scale as colors below "intense" saturation.
+</p>
+
+<p>
+Color measurements are normally made with the color presented against a background neutral gray, the <i>adaptation gray.</i> Small color differences are especially noticeable in the contrast between adjacent color areas. Large color differences or differences between visually distant color areas may be compressed or distorted in order to render the complete range of colors in a visual context.
+</p>
+
+<p>
+For reasons of historical research convenience, analytical precision and practical measurement, the color matching foundations of <a class="text" href="color6.html#colorimetry">colorimetry</a> are derived entirely from light mixtures. Yet, given the proportion of developmental years that humans spend looking at objects rather than lights (including "soft copy" lights such as televisions or computer monitors), there is no question that <b>surface colors are the <a class="text" href="color4a.html#spatialcolor">fundamental visual context</a></b> that color vision is adapted to represent accurately. Despite the fact that physical color appearance is very far removed from the original cone excitations, surface colors are the framework within which all color phenomena must be rationalized or modeled.
+</p>
+
+<p>
+Many aspects of color geometry are adaptations to enhance the interpretation of surface colors under natural light sources, and may appear to be design flaws if light perception is the standard of evaluation.</p>
+
+<p class="footlink">N E X T : &#160; <a class="text" href="color4.html">adaptation, anchoring &amp; contrast</a></p>
+
+<p class="footlink"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p>
+
+<p class="footlink"><a class="text" href="../../LS/CVS/color.html"><IMG SRC="https://www.handprint.com/HP/WCL/IMG/whorlwht.gif" WIDTH=48 HEIGHT=48 BORDER=0></A></p>
+
+<p class="last">Last revised 08.01.2005 &#149; &copy; 2005 Bruce MacEvoy</p>
+</TD>
+
+<td colspan=2 valign=top>
+<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/opthues.gif" width=200 height=100></p>
+<p class="SC">the warm/cool contrast in optimal hues</p></td>
+</td>
+</tr>
+
+<tr><td colspan=5 height=80>&#160;</td></tr> 
+
+</TABLE>
+
+</BODY>
+
+</HTML> 
