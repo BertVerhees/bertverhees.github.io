@@ -1,597 +1,435 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<HEAD><TITLE>handprint : synthesis of surface colors</TITLE>
-<link rel="stylesheet" type="text/css" href="https://www.handprint.com/HP/WCL/IMG/waterstyle.css">
-</HEAD>
-
-<BODY>
-
+<html class="translated-ltr"><head><meta charset="utf-8"/><title>handafdruk: synthese van oppervlaktekleuren</title>
+<link href="https://www.handprint.com/HP/WCL/IMG/waterstyle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
 <a name="top"></a>
-
-<TABLE class="main">
-
-<TR>
-<TD><IMG SRC="space.gif" WIDTH=30 HEIGHT=1></TD>
-<TD><IMG SRC="space.gif" WIDTH=80 HEIGHT=1></TD>
-<TD><IMG SRC="space.gif" WIDTH=460 HEIGHT=1></TD>
-<TD><IMG SRC="space.gif" WIDTH=200 HEIGHT=1></TD>
-<TD><IMG SRC="space.gif" WIDTH=30 HEIGHT=1></TD>
-</TR>
-
-<TR><TD COLSPAN=5 HEIGHT=40>&#160;</TD></TR>
-
-<TR>
-<TD COLSPAN=2></TD>
+<table class="main">
+<tbody><tr>
+<td><img height="1" src="space.gif" width="30"/></td>
+<td><img height="1" src="space.gif" width="80"/></td>
+<td><img height="1" src="space.gif" width="460"/></td>
+<td><img height="1" src="space.gif" width="200"/></td>
+<td><img height="1" src="space.gif" width="30"/></td>
+</tr>
+<tr><td colspan="5" height="40"> </td></tr>
+<tr>
+<td colspan="2"></td>
 <td class="main">
-
-<h2>synthesis of surface colors</h2>
-
-<p><img src="space.gif" width=160 height=1 align=left>Texts in traditional color theory sometimes introduce the trichromatic model of color vision, including the <b>L</b>, <b>M</b> and <b>S</b> <a class="text" href="color1.html#normconesens">cone sensitivity functions</a>, as the "scientific" foundation for color theory. But color vision described in that way has little practical application in painting and photography.
+<h2>synthese van oppervlaktekleuren</h2>
+<p><img align="left" height="1" src="space.gif" width="160"/>Teksten over traditionele kleurentheorie introduceren soms het trichromatische model van kleurenzicht, inclusief de <b>L-</b> , <b>M-</b> en <b>S- </b> <a class="text" href="color1.html#normconesens">kegelgevoeligheidsfuncties</a> , als de "wetenschappelijke" basis voor de kleurentheorie. Maar kleurenzicht zoals dat op die manier wordt beschreven, heeft weinig praktische toepassingen in de schilderkunst en fotografie.
 </p>
-
 <p>
-This page adopts a novel approach: systematically manipulating the light reflected from surface colors to understand the basic patterns of our visual response. These patterns clarify how colors change in response to changes in light, and therefore how changes in light can be represented in color media.
+Deze pagina hanteert een nieuwe aanpak: het systematisch manipuleren van het licht dat door oppervlaktekleuren wordt weerkaatst om de basispatronen van onze visuele waarneming te begrijpen. Deze patronen verduidelijken hoe kleuren veranderen als reactie op veranderingen in licht, en dus hoe veranderingen in licht in kleurmedia kunnen worden weergegeven.
 </p>
-
 <p>
-However, no real light or eyes are used in the demonstration. The "reflected light" is simulated with <a class="text" href="color3.html#optimalstimuli">optimal colors</a>. Every <a class="text" href="color4a.html#lightobject">surface color</a> has a <a class="text" href="color3.html#reflectance">reflectance profile</a>: optimal colors are just idealized reflectance profiles, created from discrete blocks of pure (100%) reflectance, which can be contrived to match the hue and/or lightness of any surface color, though always at the <i>maximum possible</i> hue purity (diagram, below).</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/rprof.gif" width=380 height=187></p>
-<p class="CC">real and ideal reflectance profiles</p>
-<p class="subCC">(left) real reflectance profiles for cadmium orange (PO20) and ultramarine blue (PB29); (right) ideal reflectance profiles (optimal colors) having the same lightness and hue as cadmium orange and ultramarine blue, but at maximum hue purity</p>
-
-<p>The optimal colors were simulated using the 10&deg; (1964) Stiles & Burch <a class="text" href="color6.html#xyzcurves">colormatching functions</a>, tabulated in one nanometer intervals from 360&#160;nm to 830&#160;nm. These are among the most accurate and spectrally widest colormatching functions available. The "visual system" here is the <a class="text" href="color7.html#CIECAM">CIECAM</a> color space, probably the most advanced and accurate color modeling system in current use, under the <a class="text" href="color6.html#equalenergy">equal energy</a> (<b>EE</b>) illuminant.
+Er wordt echter geen echt licht of ogen gebruikt in de demonstratie. Het "weerkaatste licht" wordt gesimuleerd met <a class="text" href="color3.html#optimalstimuli">optimale kleuren</a> . Elke <a class="text" href="color4a.html#lightobject">oppervlaktekleur</a> heeft een <a class="text" href="color3.html#reflectance">reflectieprofiel</a> : optimale kleuren zijn slechts geïdealiseerde reflectieprofielen, gecreëerd uit discrete blokken van pure (100%) reflectie, die kunnen worden aangepast aan de tint en/of helderheid van elke oppervlaktekleur, zij het altijd met de <i>maximaal mogelijke</i> tintzuiverheid (zie diagram hieronder).</p>
+<p class="imgC"><img height="187" src="https://www.handprint.com/HP/WCL/IMG/rprof.gif" width="380"/></p>
+<p class="CC">werkelijke en ideale reflectieprofielen</p>
+<p class="subCC">(links) Werkelijke reflectieprofielen voor cadmiumoranje (PO20) en ultramarijnblauw (PB29); (rechts) Ideale reflectieprofielen (optimale kleuren) met dezelfde helderheid en tint als cadmiumoranje en ultramarijnblauw, maar met maximale kleurzuiverheid.</p>
+<p>De optimale kleuren werden gesimuleerd met behulp van de 10° (1964) Stiles &amp; Burch <a class="text" href="color6.html#xyzcurves">kleuraanpassingsfuncties</a> , getabelleerd in intervallen van één nanometer van 360 nm tot 830 nm. Deze behoren tot de meest nauwkeurige en spectraal breedste kleuraanpassingsfuncties die beschikbaar zijn. Het "visuele systeem" is hier de <a class="text" href="color7.html#CIECAM">CIECAM-</a> kleurruimte, waarschijnlijk het meest geavanceerde en nauwkeurige kleurmodelleringssysteem dat momenteel in gebruik is, onder de <a class="text" href="color6.html#equalenergy">gelijke energie</a> ( <b>EE</b> ) belichting.
 </p>
-
 <p>
-This technical jargon describes a simple concept. The colormatching functions represent the <b>L</b>, <b>M</b> and <b>S</b> cone responses to light &#151; the "eyes" through which we see color. The optimal colors simulate colored surfaces that have the maximum hue purity possible in physical materials &#151; these are "color samples" that avoid the physical limitations of actual paints. CIECAM is the "visual system" that interprets the <b>L</b>, <b>M</b> and <b>S</b> cone outputs as the luminance, hue and hue purity of surface colors under bright illumination. The equal energy illuminant provides an absolutely pure "white" light that is tinted neither yellow (like an incandescent light) nor blue (like daylight).
+Deze technische termen beschrijven een eenvoudig concept. De kleuraanpassingsfuncties vertegenwoordigen de <b>L-</b> , <b>M-</b> en <b>S</b> -kegelreacties op licht – de "ogen" waarmee we kleur zien. De optimale kleuren simuleren gekleurde oppervlakken met de maximaal mogelijke kleurzuiverheid in fysieke materialen – dit zijn "kleurstalen" die de fysieke beperkingen van echte verf vermijden. CIECAM is het "visuele systeem" dat de <b>L-</b> , <b>M-</b> en <b>S</b> -kegeluitvoer interpreteert als de luminantie, tint en kleurzuiverheid van oppervlaktekleuren onder heldere verlichting. De lichtbron met gelijke energie levert een absoluut zuiver "wit" licht dat noch geel (zoals een gloeilamp) noch blauw (zoals daglicht) getint is.
 </p>
-
 <p>
-To analyze the basis of surface colors, we <i>change the reflected light</i> and observe how this affects the color appearance. We either <i>shift</i> reflectance across the spectrum, or <i>increase reflectance</i> from a single point in the spectrum, and examine the changes in hue, luminance or chroma that result in CIECAM.
+Om de basis van oppervlaktekleuren te analyseren, <i>veranderen we het gereflecteerde licht</i> en observeren we hoe dit de kleurwaarneming beïnvloedt. We <i>verschuiven</i> de reflectie over het spectrum, of <i>verhogen de reflectie</i> vanaf een enkel punt in het spectrum, en onderzoeken de veranderingen in tint, helderheid of verzadiging die resulteren in CIECAM.
 </p>
-
 <p>
-It is possible that the colormatching functions inaccurately define our color vision; or that CIECAM is flawed as a representation of visual experience. I minimize these hazards by comparing the optimal color analyses to the major <a class="text" href="#optimallandmarks">perceptual landmarks</a> found in color vision research. (The results of actual color vision experiments are described in <a class="text" href="color2.html">the geometry of color perception</a>.)
+Het is mogelijk dat de kleurvergelijkingsfuncties onze kleurenwaarneming onnauwkeurig weergeven, of dat CIECAM een gebrekkige weergave is van de visuele ervaring. Ik minimaliseer deze risico's door de optimale kleuranalyses te vergelijken met de belangrijkste <a class="text" href="#optimallandmarks">perceptuele referentiepunten</a> die in kleurenwaarnemingsonderzoek zijn gevonden. (De resultaten van daadwerkelijke kleurenwaarnemingsexperimenten worden beschreven in <a class="text" href="color2.html">de geometrie van kleurperceptie</a> .)
 </p>
-
 <p>
-These optimal color simulations have the merit of being comprehensive (all hues, including "extraspectral" violet colors, are included), exhaustive (all possible reflectance permutations can be examined), anchored in surface colors rather than in lights, and conveniently free of any physical limitations in the color appearance of pigments or the confusing variety of methods used in color vision research. Best of all, they provide vivid and useful insights into the dynamic visual experience of surface colors.<a name="analysiscolors"></a></p>
-
-<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>optimal circuits &#038; analysis colors</h3>
-
-<p><img src="space.gif" width=90 height=1 align=left><p>Let's start with a very simple question: how does the visual system respond to light at the extreme long ("red") or short ("blue") wavelength ends of the spectrum?
+Deze optimale kleursimulaties hebben als voordeel dat ze volledig zijn (alle tinten, inclusief "extraspectrale" violette kleuren, zijn inbegrepen), uitputtend (alle mogelijke reflectiepermutaties kunnen worden onderzocht), gebaseerd op oppervlaktekleuren in plaats van op lichtbronnen, en bovendien vrij van fysieke beperkingen in de kleurweergave van pigmenten of de verwarrende verscheidenheid aan methoden die worden gebruikt in kleurenzichtonderzoek. Het beste van alles is dat ze levendige en bruikbare inzichten bieden in de dynamische visuele ervaring van oppervlaktekleuren.<a name="analysiscolors"></a></p>
+<p class="floatArrow"><a class="text" href="#top"><img border="0" height="14" src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width="10"/></a></p><h3>optimale circuits &amp; analysekleuren</h3>
+<p><img align="left" height="1" src="space.gif" width="90"/></p><p>Laten we beginnen met een heel eenvoudige vraag: hoe reageert het visuele systeem op licht aan de uiterste lange ("rode") of korte ("blauwe") golflengte-uiteinden van het spectrum?
 </p>
-
 <p>
-Both series, by definition, must start in the monochromatic hue of the single wavelength spectrum limit. These are so dark that they appear perfectly black in
-surface colors. Both must end in a pure white, defined as 100% reflectance across the whole spectrum. But what colors are created by the surface reflectances in between?<br><a name="yellowcyancircuits"></a></p></td>
-
-<TD colspan=2 class="main">
+Beide reeksen moeten per definitie beginnen met de monochrome tint van de spectrumlimiet van één golflengte. Deze zijn zo donker dat ze perfect zwart lijken in oppervlaktekleuren. Beide moeten eindigen in puur wit, gedefinieerd als 100% reflectie over het hele spectrum. Maar welke kleuren ontstaan ​​er door de oppervlaktereﬂecties daartussen?<br/><a name="yellowcyancircuits"></a></p></td>
+<td class="main" colspan="2">
 <table class="index">
-<tr><td height=80 valign=top><h1>color<br>vision</h1></TD></tr>
-
-<tr><td height=450 valign=top align=right>
-
-<p><a class="index1" href="#analysiscolors"> optimal circuits &#038; analysis colors</a><br>
-<a class="index2" href="#yellowcyancircuits">yellow &#038; cyan circuits</a><br>
-<a class="index2" href="#greenmagentacircuits">green &#038; magenta circuits</a><br>
-<a class="index2" href="#sixcolors">summary of<br>analysis optimal colors</a></p>
-
-<p><a class="index1" href="#70circuit">a 70&#160;nm optimal circuit</a></p>
-
-<p><a class="index1" href="#optimalhues">additive changes in hue &#038; luminance</a></p>
-
-<p><a class="index1" href="#naturalchroma">natural chroma benchmarks</a></p>
-
-<p><a class="index1" href="#structurefunction">what is the perceptual structure for?</a></p>
-
-<p><a class="index1" href="#summary">summary</a></p></td></tr>
-
-<tr><td height=50 valign=top><p class="imgS"><a class="text" href="../../LS/CVS/color.html"><IMG SRC="https://www.handprint.com/HP/WCL/IMG/whorlwht.gif" WIDTH=48 HEIGHT=48 BORDER=0></A></p></td></tr></table></TD>
-</TR>
-
+<tbody><tr><td height="80" valign="top"><h1>kleurenzicht<br/>​</h1></td></tr>
+<tr><td align="right" height="450" valign="top">
+<p><a class="index1" href="#analysiscolors">optimale schakelingen &amp; analysekleuren </a><br/>
+<a class="index2" href="#yellowcyancircuits">gele &amp; cyaan schakelingen </a><br/>
+<a class="index2" href="#greenmagentacircuits">groene &amp; magenta schakelingen </a><br/>
+<a class="index2" href="#sixcolors">samenvatting van <br/>analyse optimale kleuren</a></p>
+<p><a class="index1" href="#70circuit">een optimaal circuit van 70 nm</a></p>
+<p><a class="index1" href="#optimalhues">additieve veranderingen in tint en helderheid</a></p>
+<p><a class="index1" href="#naturalchroma">natuurlijke kleurreferenties</a></p>
+<p><a class="index1" href="#structurefunction">Waarvoor dient de perceptuele structuur?</a></p>
+<p><a class="index1" href="#summary">samenvatting</a></p></td></tr>
+<tr><td height="50" valign="top"><p class="imgS"><a class="text" href="../../LS/CVS/color.html"><img border="0" height="48" src="https://www.handprint.com/HP/WCL/IMG/whorlwht.gif" width="48"/></a></p></td></tr></tbody></table></td>
+</tr>
 <tr>
-<td colspan=2></td>
-<td align=left valign=top><p><span class="rubric">Yellow &#038; Cyan Circuits</span>. To simulate the surface colors, I constructed two series of optimal colors, starting at either the "blue" (360&#160;nm) or "red" (830&#160;nm) spectrum limit, then incrementally added reflectance toward the opposite end of the spectrum (diagram, right). As the <i>boundary wavelength</i> (<b>bw</b>) moves away from the spectrum limit, it increases the width (<b>w</b>) of reflectance in the optimal color, increasing its luminance and altering its hue (always at maximum chroma or hue purity for its lightness). 
+<td colspan="2"></td>
+<td align="left" valign="top"><p><span class="rubric">Gele en cyaan circuits</span> . Om de oppervlaktekleuren te simuleren, heb ik twee series optimale kleuren geconstrueerd, beginnend bij de "blauwe" (360 nm) of "rode" (830 nm) spectrumgrens, en vervolgens stapsgewijs reflectie toegevoegd richting het tegenoverliggende uiteinde van het spectrum (diagram, rechts). Naarmate de <i>grensgolflengte</i> ( <b>bw</b> ) zich van de spectrumgrens verwijdert, neemt de breedte ( <b>w</b> ) van de reflectie in de optimale kleur toe, waardoor de helderheid toeneemt en de tint verandert (altijd met maximale chroma of tintzuiverheid voor de betreffende helderheid). 
 <a name="balance1"></a></p>
-
 <p>
-To recreate the color appearance of these colors, we map these two series of 470 <a class="text" href="color3.html#cliffprofile">type B optimal colors</a> in CIECAM. This reveals two symmetrically opposed circuits, each within one quadrant of the hue circle: a <b>yellow circuit</b> across the <i>orange red</i> to <i>green yellow</i> ("warm") hues and a <b>cyan circuit</b> across the <i>blue violet</i> to <i>green blue</i> ("cool") hues (diagram, below). (Refer to this <a class="text" href="color18a.html#visualhuecircle">hue circle</a>, or to the <a class="text" href="colormap.html">palette scheme</a>, for the location of hues in CIECAM.)</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance1.gif" width=380 height=370></p>
-<p class="CC">yellow and cyan optimal color circuits in CIECAM</p>
-<p class="subCC">optimal colors constructed from the short wavelength (<b>blue</b>) or long wavelength (<b>yellow</b>) end of the spectrum, in CIECAM under EE illuminant; <b>black dots</b> mark hue location on each circuit of boundary wavelengths (diagram, above right) in 50&#160;nm invervals; <b>colored squares</b> indicate the dichromatic white points caused by missing <b>L</b>, <b>M</b> or <b>S</b> photopigments (the <a class="index1" href="colorb.html">achromatic point</a> between the remaining two cones); <b>white bars</b> on circumference indicate areas of maximum spectral <a class="index1" href="color2.html#huediscrim">hue discrimination</a>; <b>colored X</b>'s indicate the orientation of four <a class="index1" href="color2.html#balancepoints">opponent dimensions</a> (red/green and yellow/blue); <b>inverted triangles</b> on circumference indicate peak wavelength sensitivity of the <b>L</b>, <b>M</b> and <b>S</b> cones; inverted triangles on optimal color circuits indicate points where the boundary wavelength is at the cone peak sensitivity</p></td>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridge1.gif" width=200 height=124></p>
-<p class="SC">constructing type B optimal colors from a spectrum limit at 830&#160;nm</p>
-<p class="subSC">the boundary wavelength (<b>bw</b>)<br>located at 615&#160;nm</p>
+Om de kleurweergave van deze kleuren te reproduceren, brengen we deze twee reeksen van 470 <a class="text" href="color3.html#cliffprofile">optimale kleuren van type B</a> in kaart in CIECAM. Dit onthult twee symmetrisch tegenover elkaar liggende circuits, elk binnen een kwadrant van de kleurencirkel: een <b>geel circuit</b> over de <i>oranje-rode</i> tot <i>groen-gele</i> ("warme") tinten en een <b>cyaan circuit</b> over de <i>blauwviolette</i> tot <i>groen-blauwe</i> ("koele") tinten (zie diagram hieronder). (Raadpleeg deze <a class="text" href="color18a.html#visualhuecircle">kleurencirkel</a> of het <a class="text" href="colormap.html">kleurenpalet</a> voor de locatie van de tinten in CIECAM.)</p>
+<p class="imgC"><img height="370" src="https://www.handprint.com/HP/WCL/IMG/balance1.gif" width="380"/></p>
+<p class="CC">gele en cyaan optimale kleurcircuits in CIECAM</p>
+<p class="subCC">Optimale kleuren geconstrueerd uit het korte golflengte ( <b>blauw</b> ) of lange golflengte ( <b>geel</b> ) uiteinde van het spectrum, in CIECAM onder EE-lichtbron; <b>zwarte stippen</b> markeren de tintlocatie op elk circuit van grensgolflengten (diagram, rechtsboven) met intervallen van 50 nm; <b>gekleurde vierkanten</b> geven de dichromatische witte punten aan die worden veroorzaakt door ontbrekende <b>L-</b> , <b>M-</b> of <b>S-</b> fotopigmenten (het <a class="index1" href="colorb.html">achromatische punt</a> tussen de resterende twee kegeltjes); <b>witte balken</b> op de omtrek geven gebieden met maximale spectrale <a class="index1" href="color2.html#huediscrim">tintdiscriminatie</a> aan ; <b>gekleurde X'en</b> geven de oriëntatie van vier <a class="index1" href="color2.html#balancepoints">tegenovergestelde dimensies</a> aan (rood/groen en geel/blauw); <b>omgekeerde driehoeken</b> op de omtrek geven de piekgevoeligheid van de <b>L-</b> , <b>M-</b> en <b>S-</b> kegeltjes aan; omgekeerde driehoeken op de optimale kleurcircuits geven punten aan waar de grensgolflengte zich op de piekgevoeligheid van de kegeltjes bevindt</p></td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="124" src="https://www.handprint.com/HP/WCL/IMG/ridge1.gif" width="200"/></p>
+<p class="SC">Het construeren van optimale kleuren van type B vanuit een spectrumlimiet bij 830 nm.</p>
+<p class="subSC">de grensgolflengte ( <b>bw</b> ) <br/>bevindt zich op 615 nm</p>
 </td>
 </tr>
-
 <tr>
-<td colspan=2></td>
-<td valign=top align=left><p>Each circuit originates in achromatic black, because every wavelength except the spectrum limit wavelength has 0% reflectance. As reflectance is added, the color climbs away from the achromatic point (<b>WP</b>) along a single hue angle, its <b>black limit</b>, at CIECAM hue angle 33&deg; for the yellow circuit and 287&deg; for the cyan circuit. As more reflectance (light) is added, each circuit traverses about one quarter of the hue circle (one third of the spectrum) at high chroma, then dives again toward a brilliant white at a second constant hue angle, its <b>white limit</b>, which is about 111&deg; for the yellow circuit and 200&deg; for the cyan circuit (diagram, right). These four limit hue angles correspond to <a class="text" href="color1.html#huenames">spectral hues</a> at 650&#160;nm ("orange red"), 415&#160;nm ("blue violet"), 565&#160;nm ("green yellow") and 485&#160;nm ("green blue") respectively.
+<td colspan="2"></td>
+<td align="left" valign="top"><p>Elk circuit begint bij achromatisch zwart, omdat elke golflengte behalve de spectrumlimietgolflengte 0% reflectie heeft. Naarmate er reflectie wordt toegevoegd, beweegt de kleur zich weg van het achromatische punt ( <b>WP</b> ) langs één enkele tinthoek, de <b>zwarte limiet</b> , bij een CIECAM-tinthoek van 33° voor het gele circuit en 287° voor het cyaan circuit. Naarmate er meer reflectie (licht) wordt toegevoegd, doorloopt elk circuit ongeveer een kwart van de tintcirkel (een derde van het spectrum) met een hoge chroma, om vervolgens weer te duiken naar een helder wit bij een tweede constante tinthoek, de <b>witte limiet</b> , die ongeveer 111° is voor het gele circuit en 200° voor het cyaan circuit (diagram, rechts). Deze vier tintlimieten corresponderen met <a class="text" href="color1.html#huenames">spectrale tinten</a> bij respectievelijk 650 nm ("oranje rood"), 415 nm ("blauw violet"), 565 nm ("groen geel") en 485 nm ("groen blauw").
 </p>
-
 <p>
-The yellow and cyan circuits have similar shapes and cover roughly equal spans of the hue circle, but the cyan circuit has a lower maximum chroma than the yellow circuit (<b>C</b> = 103 to 144). (However, the <a class="text" href="#satcircuit">cyan circuit appears larger</a> using <a class="text" href="color3.html#colormakingsaturation">saturation</a>, which compares chroma to the lightness of the color.) This indicates that <b>blue surfaces have lower chroma than yellows or reds</b>, and that this limitation is part of our visual system and not due to the material qualities of surfaces. 
+De gele en cyaan circuits hebben vergelijkbare vormen en beslaan ongeveer gelijke delen van de kleurencirkel, maar het cyaan circuit heeft een lagere maximale chroma dan het gele circuit ( <b>C = 103 tot 144). (Het </b><a class="text" href="#satcircuit">cyaan circuit lijkt</a> echter groter bij gebruik van <a class="text" href="color3.html#colormakingsaturation">verzadiging</a> , waarbij chroma wordt vergeleken met de helderheid van de kleur.) Dit wijst erop dat <b>blauwe oppervlakken een lagere chroma hebben dan gele of rode oppervlakken</b> , en dat deze beperking onderdeel is van ons visuele systeem en niet te wijten is aan de materiaaleigenschappen van de oppervlakken. 
 </p>
-
 <p>
-The black and white limits divide the visible spectrum into three segments &#151; orange, green and blue. So a logical next step is to create three <b>analysis optimal colors</b> by adding together all reflectance within each of the three quandrants described above. This creates:
+De zwart-witgrenzen verdelen het zichtbare spectrum in drie segmenten: oranje, groen en blauw. Een logische volgende stap is daarom het creëren van drie <b>optimale kleuren voor analyse</b> door alle reflecties binnen elk van de drie hierboven beschreven kwadranten bij elkaar op te tellen. Dit levert het volgende op:
 </p>
-
 <p>
-<b>optimal orange</b> (565-830&#160;nm, dominant wavelength 594&#160;nm)<br> <b>optimal green</b> (485-565&#160;nm, dominant wavelength 525&#160;nm) and <br><b>optimal blue</b> (360-485&#160;nm, dominant wavelength 458&#160;nm).
+<b>optimaal oranje</b> (565-830 nm, dominante golflengte 594 nm) , <br/> <b>optimaal groen</b> (485-565 nm, dominante golflengte 525 nm) en <br/><b>optimaal blauw</b> (360-485 nm, dominante golflengte 458 nm).
 </p>
-
 <p>
-We can also combine two spectrum segments to create three <a class="text" href="color5.html#subdemo">subtractive "primary"</a> optimal colors:
+We kunnen ook twee spectrumsegmenten combineren om drie <a class="text" href="color5.html#subdemo">subtractieve "primaire"</a> optimale kleuren te creëren:
 </p>
-
 <p>
-<b>optimal yellow</b> (485&#150;830&#160;nm, dominant wavelength 570&#160;nm)<br> 
-<b>optimal cyan</b> (360&#150;565&#160;nm, dominant wavelength 482&#160;nm) and <br>
-<b>optimal magenta</b> (360&#150;485&#160;nm + 565&#150;830&#160;nm, dominant wavelength c510&#160;nm).
+<b>optimaal geel</b> (485–830 nm, dominante golflengte 570 nm), <br/>
+<b>optimaal cyaan</b> (360–565 nm, dominante golflengte 482 nm) en <br/>
+<b>optimaal magenta</b> (360–485 nm + 565–830 nm, dominante golflengte ca. 510 nm).
 </p>
-
 <p>
-This three part spectrum division is validated by the fact that the compound yellow and cyan optimal colors are the hue of the white limit they straddle (diagram, above). Thus the dominant wavelength of optimal cyan (482&#160;nm) matches the cyan circuit white limit at 485&#160;nm; the dominant wavelength of optimal yellow (570&#160;nm) matches the yellow circuit white limit at 565&#160;nm.
+Deze driedelige spectrumverdeling wordt bevestigd door het feit dat de optimale kleuren van samengesteld geel en cyaan de tint zijn van de witgrens die ze omspannen (zie diagram hierboven). Zo komt de dominante golflengte van optimaal cyaan (482 nm) overeen met de witgrens van het cyaancircuit op 485 nm; de dominante golflengte van optimaal geel (570 nm) komt overeen met de witgrens van het geelcircuit op 565 nm.
 <a name="greenmagentacircuits"></a></p>
-
 <p>
-<span class="rubric">Green &#038; Magenta Circuits</span>. It may be surprising that neither the yellow nor cyan circuit creates a green color, as they overlap over the middle span of "green" wavelengths. This indicates that reflectance at the spectrum extremes serve to <i>suppress</i> a green color perception: green only appears if we <i>remove</i> "blue" light from a green blue or "red" light from a yellow.</p></td>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridges.gif" width=200 height=281></p>
-<p class="SC">chroma by hue angle for yellow and cyan optimal circuits</p>
+<span class="rubric">Groene en magenta circuits</span> . Het is misschien verrassend dat noch het gele, noch het cyaan circuit een groene kleur produceert, aangezien ze elkaar overlappen in het midden van het spectrum van "groene" golflengten. Dit wijst erop dat reflectie aan de uiteinden van het spectrum de waarneming van een groene kleur <i>onderdrukt</i> : groen verschijnt alleen als we "blauw" licht uit een groenblauw licht <i>verwijderen of "rood" licht uit een geel licht.</i></p></td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="281" src="https://www.handprint.com/HP/WCL/IMG/ridges.gif" width="200"/></p>
+<p class="SC">chroma per tinthoek voor optimale schakelingen in geel en cyaan</p>
 </td>
 </tr>
-
 <tr>
-<td colspan=2></td>
-<td valign=top align=left><p>The green quadrant can be surveyed by starting with the type B optimal colors. Start with optimal cyan or optimal yellow, then incrementally delete wavelengths from these colors, starting at the spectrum limit until only a single "cyan" or "yellow" wavelength remains. This produces two new optimal color series, a <i>blue green circuit</i> (starting with optimal cyan and removing "blue" reflectance) and a <i>yellow green circuit</i> (starting with optimal yellow and removing "red" reflectance). These series disappear into black at the opposite white limit, and intersect at optimal green (<b>OG</b>; diagram, right).
+<td colspan="2"></td>
+<td align="left" valign="top"><p>Het groene kwadrant kan worden onderzocht door te beginnen met de optimale kleuren van type B. Begin met optimaal cyaan of optimaal geel en verwijder vervolgens stapsgewijs golflengten uit deze kleuren, beginnend bij de spectrumlimiet, totdat er slechts één "cyaan" of "gele" golflengte overblijft. Dit levert twee nieuwe optimale kleurenreeksen op: een <i>blauwgroene reeks</i> (beginnend met optimaal cyaan en het verwijderen van "blauwe" reflectie) en een <i>geelgroene reeks</i> (beginnend met optimaal geel en het verwijderen van "rode" reflectie). Deze reeksen verdwijnen in zwart bij de tegenoverliggende witte limiet en kruisen elkaar bij optimaal groen ( <b>OG</b> ; diagram, rechts).
 </p>
-
 <p>
-In either case, green appears only gradually as light from the spectrum extremes is reduced. However, because of the high <a class="text" href="color2.html#tinttest">tinting strength</a> of "blue" light in comparison to "red" light, changes in "blue" reflectance have a greater impact on color appearance. Thus, omitting the extreme 650&#150;700&#160;nm of "red" light from optimal yellow shifts the hue angle of the color by just 3&deg;, but omitting the extreme 400&#150;450&#160;nm "blue violet" light from optimal cyan shifts the hue angle by 29&deg;! 
+In beide gevallen verschijnt groen slechts geleidelijk naarmate het licht van de extremen van het spectrum wordt verminderd. Vanwege de hoge <a class="text" href="color2.html#tinttest">kleurkracht</a> van "blauw" licht in vergelijking met "rood" licht, hebben veranderingen in de reflectie van "blauw" licht echter een grotere invloed op de kleurwaarneming. Zo verschuift het weglaten van het extreme "rode" licht van 650-700 nm uit optimaal geel de tinthoek van de kleur slechts met 3°, maar het weglaten van het extreme "blauwviolette" licht van 400-450 nm uit optimaal cyaan verschuift de tinthoek met maar liefst 29°! 
 </p>
-
 <p>
-This greater tension between "green" and "blue" reflectance, compared with "green" and "red", yields this dominance order in the <i>tinting strength</i> of light:</p>
-<p class="CC">blue > green [yellow] > red</b>
+Deze grotere spanning tussen "groene" en "blauwe" reflectie, vergeleken met "groene" en "rode" reflectie, resulteert in deze dominantievolgorde in de <i>kleursterkte</i> van het licht:</p>
+<p class="CC">blauw &gt; groen [geel] &gt; rood
 </p>
-
 <p>
-That is, blue reflectance has a proportionately greater effect on color appearance than green and/or yellow, and green reflectance a greater effect than red (if we extend "red" light out to 830&#160;nm).
+Dat wil zeggen dat blauwe reflectie een proportioneel groter effect heeft op de kleurwaarneming dan groene en/of gele reflectie, en groene reflectie een groter effect dan rode (als we "rood" licht uitbreiden tot 830 nm).
 </p>
-
 <p>
-Note that optimal green is closer to the yellow white limit: greens as a whole have a "warm" bias, and most of the span of green hues is taken up by <i>yellow green</i> (as, for example, in this <a class="text" href="color18.html#huecategoryspacing">hue circle</a>). In fact, yellow is really a form of <a class="text" href="color12.html#satmap">luminance enhanced green</a>, as we see in the close relationship between yellow and green in natural (foliage) greens. Thus, <i>green gold</i> turns into <i>yellow</i> when the color is lightened or brightened, and <i>yellow</i> turns into green when the color is dulled or darkened. In both cases, <i>darkening</i> the color is equivalent to adding "blue" reflectance to it. (The complementary change happens to green blues, which darken into blue greens.)
+Merk op dat optimaal groen dichter bij de geelwitte grens ligt: ​​groentinten hebben over het algemeen een "warme" ondertoon, en het grootste deel van het spectrum aan groene tinten wordt ingenomen door <i>geelgroen</i> (zoals bijvoorbeeld in deze <a class="text" href="color18.html#huecategoryspacing">kleurencirkel</a> ). Geel is in feite een vorm van <a class="text" href="color12.html#satmap">luminantie-versterkt groen</a> , zoals we zien in de nauwe relatie tussen geel en groen in natuurlijke (blad)groentinten. Zo verandert <i>goudgroen in </i><i>geel</i> wanneer de kleur lichter of helderder wordt gemaakt, en <i>geel</i> verandert in groen wanneer de kleur doffer of donkerder wordt gemaakt. In beide gevallen is <i>het donkerder maken</i> van de kleur gelijk aan het toevoegen van "blauwe" reflectie. (De complementaire verandering vindt plaats bij groenblauw, dat donkerder wordt tot blauwgroen.)
 </p>
-
 <p>
-There are many ways to create a circuit over the <a class="text" href="color2.html#extraspectral">extraspectral side</a> of the color space. However an optimal color <b>mixture magenta</b> achieves peak chroma (C&#160;=&#160;116) in a mixture of "blue" 360&#150;460&#160;nm and "red" 610&#150;830&#160;nm light, which is located at CIECAM hue angle 331&deg; (dominant wavelength c519&#160;nm). This is equivalent to a <a class="text" href="color3.html#cliffprofile">type C optimal color</a> where <b>w</b> = 320&#160;nm and <b>cw</b> = 770&#160;nm. Note that roughly twice as many "red" wavelengths as "blue" are included in the magenta mixture.
+Er zijn veel manieren om een ​​circuit te creëren aan de <a class="text" href="color2.html#extraspectral">extraspectrale kant</a> van de kleurruimte. Een optimale kleurmenging <b>voor magenta</b> bereikt echter een piekchroma (C = 116) in een mengsel van "blauw" licht (360-460 nm) en "rood" licht (610-830 nm), dat zich bevindt bij de CIECAM-tinthoek van 331° (dominante golflengte c519 nm). Dit is equivalent aan een <a class="text" href="color3.html#cliffprofile">optimale kleur van type C,</a> waarbij <b>w</b> = 320 nm en <b>cw</b> = 770 nm. Merk op dat het magentamengsel ongeveer twee keer zoveel "rode" golflengten bevat als "blauwe".
 </p>
-
 <p>
-This is a nice illustration of the basic visual property that some "colors" of light exert a stronger effect in <i>color mixture</i> than they do in <i>color appearance.</i> When red and blue phosphors or reflecting surfaces are equally bright and mixed in equal proportions, the result is a <i>red violet</i> (magenta) color. Goethe named this color <i>purpur</i> and called it the <a class="text" href="goethe.html#goethewheel">acme or augmentation of red</a>. In contrast, a <i>violet</i> (purple) hue, usually judged to be the hue midway between red and blue, actually signals that "blue" light predominates in the mixture by roughly 2 to 1.
+Dit is een mooie illustratie van de fundamentele visuele eigenschap dat sommige 'kleuren' van licht een sterker effect hebben in <i>kleurmenging</i> dan in <i>de kleur zelf.</i> Wanneer rode en blauwe fosforen of reflecterende oppervlakken even helder zijn en in gelijke verhoudingen worden gemengd, ontstaat een <i>roodviolette</i> (magenta) kleur. Goethe noemde deze kleur <i>purpur</i> en beschreef het als het <a class="text" href="goethe.html#goethewheel">hoogtepunt of de versterking van rood</a> . Daarentegen geeft een <i>violette</i> (paarse) tint, die doorgaans wordt beschouwd als de tint halverwege rood en blauw, in werkelijkheid aan dat 'blauw' licht in het mengsel overheerst met een verhouding van ongeveer 2 op 1.
 <a name="lighthue"></a></p>
-
 <p>
-<span class="rubric">Illumination &amp; Hue</span>. It is tempting, given the connection between type B optimal colors and the separate yellow and cyan circuits, to see environmental surfaces represented perceptually as variations in orange, yellow, cyan and blue, and to see light as the contrast between green and magenta, the two colors most visible in petroleum iridescence. Significantly, a green/magenta dimension of color matching was found to be stable across a wide range of illuminances under a D65 white point. This implies it is the dynamic that controls for changes in the appearance of white as the relative sensitivity to the spectrum ends increases under dim light.</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/lightbal.gif" width=380 height=251></p>
-<p class="CC">illuminant mixture with surface optimal colors</b>
+<span class="rubric">Verlichting en tint</span> . Gezien de connectie tussen optimale kleuren van type B en de afzonderlijke gele en cyaan circuits, is het verleidelijk om omgevingsoppervlakken perceptueel weer te geven als variaties in oranje, geel, cyaan en blauw, en licht te zien als het contrast tussen groen en magenta, de twee kleuren die het meest zichtbaar zijn in de iriserende glans van aardolie. Opvallend is dat een groen/magenta-dimensie van kleuraanpassing stabiel bleek te zijn over een breed scala aan verlichtingssterktes onder een D65-witpunt. Dit impliceert dat het de dynamiek is die veranderingen in de waarneming van wit bepaalt naarmate de relatieve gevoeligheid voor de uiteinden van het spectrum toeneemt bij weinig licht.</p>
+<p class="imgC"><img height="251" src="https://www.handprint.com/HP/WCL/IMG/lightbal.gif" width="380"/></p>
+<p class="CC">lichtmengsel met oppervlakte-optimale kleuren
 </p>
-
 <p>
-The illuminant changes in surface colors are systematic: under green light orange, yellow and cyan become more similar, less saturated, and closer to white than blue; under magenta light all surface hues become warmer, more distinct from each other and more saturated ��151; with the exception of greens, which become duller and darker. 
+De veranderingen in oppervlaktekleuren als gevolg van de belichting zijn systematisch: onder groen licht worden oranje, geel en cyaan meer gelijkend, minder verzadigd en dichter bij wit dan blauw; onder magenta licht worden alle oppervlaktetinten warmer, meer van elkaar te onderscheiden en meer verzadigd – met uitzondering van groen, dat doffer en donkerder wordt. 
 <a name="sixcolors"></a></p>
-
 <p>
-<span class="rubric">Summary of Analysis Optimal Colors</span>. The summary table (below) desribes the six analysis optimal colors. Note the basic patterns: yellow is brightest, blue darkest, with orange, green, cyan and magenta at a similar middle lightness; orange and green have the highest chroma, with yellow, cyan, blue and magenta at a similar but lower chroma.</p>
-
-<table width=100% cellpadding=8 cellspacing=0 border=1>
-<tr><td>
-<table width=100% cellpadding=3 cellspacing=0 border=0  style="font-family:Verdana; font-size:12px; color:#333366;">
-<tr><td colspan=6 align=center height=30><span style="font-family:Verdana; font-size:16px; font-weight:bold; color:#333366;">six analysis optimal colors</span></td></tr>
-<tr align=center><td rowspan=2></td><td rowspan=2><font size=-1><i>boundary<br>wavelengths<br>(nm)</i></td><td rowspan=2><font size=-1><i>dominant<br>wave-<br>length</i></td><td colspan=3 valign=bottom><b>CIECAM</b></td></tr>
-<tr align=center><td><b>J</b></td><td><b>C</b></td><td><b>h</b></td></tr>
-<tr align=center><td align=left>optimal orange<br><font size=-1><i>yellow orange 
-PY153</i></td><td>565-830</td><td>594</td><td>71</td><td>137</td><td>65</td></tr>
-<tr align=center><td align=left>optimal yellow<br><font size=-1><i>yellow PY3</i></td><td>485-830</td><td>570</td><td>104</td><td>97</td><td>105</td></tr>
-<tr align=center><td align=left>optimal green<br><font size=-1><i>green PG36+PY3</i></td><td>485-565</td><td>525</td><td>71</td><td>130</td><td>147</td></tr>
-<tr align=center><td align=left>optimal cyan<br><font size=-1><i>green blue PG50</i></td><td>360-565</td><td>482</td><td>77</td><td>87</td><td>205</td></tr>
-<tr align=center><td align=left>optimal blue<br><font size=-1><i>violet blue PB29</i></td><td>360-485</td><td>458</td><td>23</td><td>98</td><td>253</td></tr>
-<tr align=center><td align=left>optimal&#160;magenta<br><font size=-1><i>red violet PV49</i></td><td>360-485,<br>565-830</td><td>c510</td><td>78</td><td>84</td><td>338</td></tr>
-<tr align=center><td align=left><i>mixture&#160;magenta</i></td><td><i>360-460,<br>610-830</i></td><td><i>c519</i></td><td><i>41</i></td><td><i>116</i></td><td><i>331</i></td></tr>
-<tr align=center><td align=left colspan=6><b>Note</b>: All values based on 10&deg; (1964) Stiles & Burch colormatching functions (360-830&#160;nm), scaled in CIECAM02 with EE illuminant.</td></tr>
-</table>
+<span class="rubric">Samenvatting van de analyse van de optimale kleuren</span> . De onderstaande tabel beschrijft de zes optimale kleuren voor de analyse. Let op de basispatronen: geel is het helderst, blauw het donkerst, met oranje, groen, cyaan en magenta op een vergelijkbare, gemiddelde helderheid; oranje en groen hebben de hoogste kleurverzadiging, met geel, cyaan, blauw en magenta op een vergelijkbare, maar lagere kleurverzadiging.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<tbody><tr><td>
+<table border="0" cellpadding="3" cellspacing="0" style="font-family:Verdana; font-size:12px; color:#333366;" width="100%">
+<tbody><tr><td align="center" colspan="6" height="30"><span style="font-family:Verdana; font-size:16px; font-weight:bold; color:#333366;">zes analyses optimale kleuren</span></td></tr>
+<tr align="center"><td rowspan="2"></td><td rowspan="2"><i>grensgolflengten <br/>( <br/>nm)</i></td><td rowspan="2"><i>dominante <br/>golflengte<br/>​</i></td><td colspan="3" valign="bottom"><b>CIECAM</b></td></tr>
+<tr align="center"><td><b>J</b></td><td><b>C</b></td><td><b>H</b></td></tr>
+<tr align="center"><td align="left">optimale oranje <br/><i>geel oranje PY153</i></td><td>565-830</td><td>594</td><td>71</td><td>137</td><td>65</td></tr>
+<tr align="center"><td align="left">optimaal geel <br/><i>geel PY3</i></td><td>485-830</td><td>570</td><td>104</td><td>97</td><td>105</td></tr>
+<tr align="center"><td align="left">optimale groene <br/><i>PG36+PY3</i></td><td>485-565</td><td>525</td><td>71</td><td>130</td><td>147</td></tr>
+<tr align="center"><td align="left">optimale cyaan <br/><i>groen blauw PG50</i></td><td>360-565</td><td>482</td><td>77</td><td>87</td><td>205</td></tr>
+<tr align="center"><td align="left">optimaal blauw <br/><i>violet blauw PB29</i></td><td>360-485</td><td>458</td><td>23</td><td>98</td><td>253</td></tr>
+<tr align="center"><td align="left">optimale magenta <br/><i>rood violet PV49</i></td><td>360-485, <br/>565-830</td><td>c510</td><td>78</td><td>84</td><td>338</td></tr>
+<tr align="center"><td align="left"><i>mengsel magenta</i></td><td><i>360-460, <br/>610-830</i></td><td><i>c519</i></td><td><i>41</i></td><td><i>116</i></td><td><i>331</i></td></tr>
+<tr align="center"><td align="left" colspan="6"><b>Opmerking</b> : Alle waarden zijn gebaseerd op de 10° (1964) Stiles &amp; Burch kleuraanpassingsfuncties (360-830 nm), geschaald in CIECAM02 met EE-lichtbron.</td></tr>
+</tbody></table>
 </td></tr>
-</table>
-<br>
-<p class="imgC"><a name="sumfigure"><img src="https://www.handprint.com/HP/WCL/IMG/opsamp.gif" width=379 height=279></a></p>
-<p class="CC">optimal color samples and distribution around light/dark and warm/cool contrasts</b>
+</tbody></table>
+<br/>
+<p class="imgC"><a name="sumfigure"><img height="279" src="https://www.handprint.com/HP/WCL/IMG/opsamp.gif" width="379"/></a></p>
+<p class="CC">optimale kleurstalen en -verdeling rond licht/donker en warm/koel contrasten
 </p>
-
-<p>The graphic suggests the hue and lightness appearance of these colors arranged in spectral order (diagram above, top), although the actual optimal colors would appear much more intensely saturated.
+<p>De afbeelding geeft een indicatie van de tint en helderheid van deze kleuren, gerangschikt in spectrale volgorde (diagram hierboven, bovenaan), hoewel de werkelijke optimale kleuren veel intenser verzadigd zouden zijn.
 </p>
-
 <p>
-If we locate the six optimal colors on a long/short wavelength or "warm/cool" axis (<b>optimal orange/optimal blue</b>), and a photopic luminance or "light/dark" axis (<b>optimal green/optimal magenta</b>; diagram above), the optimal analysis colors define a roughly symmetrical arrangement of the subtractive <a class="text" href="color5.html#subdemo">CYM</a> "primaries", but an asymmetric arrangement of the additive <a class="text" href="color5.html#additiveprimaries">RGB</a> "primaries". This occurs because adding together all the "red" wavelengths above 570&#160;nm does not produce the prototypical <b>R</b> primary (a <a class="text" href="https://www.handprint.com/HP/WCL/IMG/RC/red.html">"spectrum" red</a> or <i>orange red</i>) but a gorgeous <i>yellow orange</i> instead.
+Als we de zes optimale kleuren plaatsen op een lange/korte golflengte- of "warm/koel"-as ( <b>optimaal oranje/optimaal blauw</b> ) en een fotopische luminantie- of "licht/donker"-as ( <b>optimaal groen/optimaal magenta</b> ; zie bovenstaand diagram), definiëren de optimale analysekleuren een ruwweg symmetrische rangschikking van de subtractieve <a class="text" href="color5.html#subdemo">CYM-</a> "primaire kleuren", maar een asymmetrische rangschikking van de additieve <a class="text" href="color5.html#additiveprimaries">RGB-</a> "primaire kleuren". Dit komt doordat het optellen van alle "rode" golflengten boven 570 nm niet de prototypische <b>R-</b> primaire kleur oplevert (een <a class="text" href="https://www.handprint.com/HP/WCL/IMG/RC/red.html">"spectrum" rood</a> of <i>oranjerood</i> ), maar in plaats daarvan een prachtige <i>geel-oranje kleur</i> .
 </p>
-
 <p>
-Finally, as shown in the diagram, the six analysis colors are systematically related to the <a class="text" href="color4.html#abney">Abney effect</a>, which causes the hue of surface colors to shift slightly as chroma increases &#151; as can be seen, for example, in <a class="text" href="color7.html#CIECAMab">Munsell color samples</a>. The simple rule: hues near the white or black limits shift toward them as chroma increases.<a name="70circuit"></a></p>
-
-<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>a 70&#160;nm optimal circuit</h3>
-
-<p><img src="space.gif" width=90 height=1 align=left><p>Next, we can follow the integration of color around the hue circle by sliding an optimal color "window" <i>across</i> the entire spectrum.
-<br><a name="balance2"></a></TD>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/opgrn.gif" width=200 height=223></p>
-<p class="SC">two circuits through optimal green</p>
-<p class="subSC">produced by removing "blue" light from optimal cyan (<b>OC</b>) or "red" light from optimal yellow (<b>OY</b>); the circuits intersect at optimal green (<b>OG</b>)</p>
-</td>
-</TR>
-
-<tr>
-<td colspan=2></td>
-<td valign=top align=left><p>This analysis requires arbitrary spectrum end wavelengths and an arbitrary window width (<b>w</b>). I use the "blue violet" (415&#160;nm) and "orange red" (650&#160;nm) black limits as spectrum boundaries to focus on the effects of hue mixture and to eliminate the very low luminance of extreme "red" and "violet" light. I use a window 70&#160;nm wide, which (in the 415&#150;650&#160;nm spectrum) fits within the span of optimal blue (70&#160;nm), optimal green (80&#160;nm) and optimal orange (85&#160;nm). The spectral position of the window is identified by its <i>center wavelength</i> (<b>cw</b>), which is 35&#160;nm from the window limits (diagram, right). 
-</p>
-
-<p>
-This optimal circuit, which includes the "extraspectral" (<a class="text" href="color3.html#cliffprofile">type C</a>) optimal colors produced by inclusion of both short and long wavelengths in the 70&#160;nm window, is shown in the diagram (below).</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance2.gif" width=380 height=366></p>
-<p class="CC">70&#160;nm optimal circuit</p>
-<p class="subCC">optimal color circuit 70&#160;nm wide across wavelengths 415&#150;650&#160;nm (cw&#160;450&#150;615&#160;nm) including extraspectral mixtures (cw&#160;415&#150;450&#160;nm and cw&#160;615&#150;650&#160;nm), in CIECAM under EE illuminant</p></td>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridge2.gif" width=200 height=137></p>
-<p class="SC">70&#160;nm optimal color between the 415&#150;650&#160;nm black limits</p>
-<p class="subSC">the center wavelength (<b>cw</b>) located<br>at 565&#160;nm with window spanning<br>530&#150;600&#160;nm</p>
+Ten slotte, zoals in het diagram te zien is, zijn de zes analysekleuren systematisch gerelateerd aan het <a class="text" href="color4.html#abney">Abney-effect</a> , dat ervoor zorgt dat de tint van oppervlaktekleuren enigszins verschuift naarmate de chroma toeneemt — zoals bijvoorbeeld te zien is in <a class="text" href="color7.html#CIECAMab">Munsell-kleurstalen</a> . De eenvoudige regel: tinten dicht bij de witte of zwarte grens verschuiven ernaartoe naarmate de chroma toeneemt.<a name="70circuit"></a></p>
+<p class="floatArrow"><a class="text" href="#top"><img border="0" height="14" src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width="10"/></a></p><h3>een optimaal circuit van 70 nm</h3>
+<p><img align="left" height="1" src="space.gif" width="90"/></p><p>Vervolgens kunnen we de integratie van kleur rond de kleurencirkel volgen door een optimaal kleurvenster <i>over</i> het hele spectrum te verschuiven.
+<br/><a name="balance2"></a></p></td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="223" src="https://www.handprint.com/HP/WCL/IMG/opgrn.gif" width="200"/></p>
+<p class="SC">twee circuits via optimaal groen</p>
+<p class="subSC">geproduceerd door "blauw" licht te verwijderen uit optimaal cyaan ( <b>OC</b> ) of "rood" licht uit optimaal geel ( <b>OY</b> ); de circuits kruisen elkaar bij optimaal groen ( <b>OG</b> ).</p>
 </td>
 </tr>
-
 <tr>
-<td colspan=2></td>
-<td valign=top align=left><p>The variations in lightness across this 70&#160;nm circuit resemble a sine wave (diagram, right), with maximum lightness at the <b>L</b> cone peak sensitivity (cw&#160;565&#160;nm, CIECAM hue angle 110&deg;) and minimum lightness at the <b>S</b> cone peak sensitivity (cw&#160;445&#160;nm, hue angle 262&deg;). This again illustrates the importance of the <b>L&#150;S</b> opponency as the anchor for both <a class="text" href="color2.html#tilting">luminance and chromaticity</a> contrasts in surface colors. Note again (diagram, above) that, at the level of cone responses, the <b>L&#150;S</b> contrast is bent toward green by the <i>green yellow</i> location of the <b>L</b> cone peak sensitivity. 
+<td colspan="2"></td>
+<td align="left" valign="top"><p>Deze analyse vereist willekeurige golflengtes aan de uiteinden van het spectrum en een willekeurige vensterbreedte ( <b>w</b> ). Ik gebruik de zwartgrenzen van "blauwviolet" (415 nm) en "oranjerood" (650 nm) als spectrumgrenzen om me te concentreren op de effecten van kleurmenging en om de zeer lage luminantie van extreem "rood" en "violet" licht te elimineren. Ik gebruik een venster van 70 nm breed, dat (in het spectrum van 415-650 nm) binnen het bereik van optimaal blauw (70 nm), optimaal groen (80 nm) en optimaal oranje (85 nm) valt. De spectrale positie van het venster wordt bepaald door de <i>centrale golflengte</i> ( <b>cw</b> ), die 35 nm van de venstergrenzen verwijderd is (diagram, rechts). 
 </p>
-
 <p>
-The 70&#160;nm circuit indicates that the transitions across green and violet are seamless and strongly chromatic, though the chroma of yellow greens, yellows and spectrum reds is about 40% greater than the chroma of blue greens, blues and purples. The <i>perceptual potential</i> for extreme chroma sensation in surface colors is perceptually biased toward yellow (<b>b+</b>) reflectance and high luminance. If we do not see extremely saturated green surfaces, this is due to a chemical limitation or natural scarcity in the maximum chroma that surfaces present to the eye. 
-</p>
-
-<p>
-I've mentioned the high tinting strength of "blue violet" light, and the diagram (above) shows the effect of adding 15&#160;nm blocks of short wavelength light, or all light below 445&#160;nm, to the 70&#160;nm colors from cw&#160;615&#160;nm (580-650&#160;nm) to cw&#160;525&#160;nm (490-560&#160;nm, ~optimal green). The main effect is the increased tinting strength of wavelengths closer to the <b>S</b> cone peak (at 445&#160;nm). But these effects are not additive: "blue" light becomes proportionately less potent as more of it (360-445&#160;nm) has been added to the warm color. The "blue violet" light also has a much stronger impact on extreme "red" light than on more luminous "green" light.
-</p>
-
-<p>
-The diagram also shows the effect of all light above 655&#160;nm to the 70&#160;nm colors from cw&#160;525&#160;nm (490-560&#160;nm, ~optimal green) to cw&#160;450&#160;nm (415-485&#160;nm, ~optimal cyan). This demonstrates the much weaker tinting strength of "red" light on the short wavelength half of the spectrum, despite the fact (as shown by the luminance curve, above right) that "red" light is much more luminous than "blue" light.
-</p>
-
-<p>
-The shift of "blue" tinted colors is directly toward the peak sensitivity of the <b>S</b> cone (blue triangle), while the shift caused by "red" light is not upward toward the peak <b>L</b> cone sensitivity (red triangle) but diagonally toward the point of peak chroma in the yellow circuit, at hue angle 45&deg; (<a class="text" href="#balance1">diagram, above</a>). This again illustrates the clockwise "remapping" of the <b>L</b> cone contribution to the hue circle.<a name="optimalhues"></a></p>
-
-<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>additive changes in hue &#038; luminance</h3>
-
-<p><img src="space.gif" width=90 height=1 align=left><p>The previous section considered the color space "horizontally", by shifting a 70&#160;nm window across the spectrum. Now we consider the color space <i>vertically,</i> by centering the optimal color on a single wavelength, then adding wavelengths symmetrically on both sides of it.</p></td>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/jopt.gif" width=193 height=191></p>
-<p class="SC">CIECAM lightness of<br>70nm optimal circuit</p>
-<p class="subSC">area of "extraspectral" ("blue"+"red") mixtures in pink</p></td>
+Dit optimale circuit, dat de "extraspectrale" ( <a class="text" href="color3.html#cliffprofile">type C</a> ) optimale kleuren omvat die worden geproduceerd door de opname van zowel korte als lange golflengten in het 70 nm-venster, wordt weergegeven in het diagram (hieronder).</p>
+<p class="imgC"><img height="366" src="https://www.handprint.com/HP/WCL/IMG/balance2.gif" width="380"/></p>
+<p class="CC">70 nm optimaal circuit</p>
+<p class="subCC">optimaal kleurenspectrum 70 nm breed over golflengten van 415–650 nm (continue golflengte 450–615 nm), inclusief extraspectrale mengsels (continue golflengte 415–450 nm en continue golflengte 615–650 nm), in CIECAM onder EE-lichtbron</p></td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="137" src="https://www.handprint.com/HP/WCL/IMG/ridge2.gif" width="200"/></p>
+<p class="SC">70 nm optimale kleur tussen de zwartgrenzen van 415–650 nm</p>
+<p class="subSC">de centrale golflengte ( <b>cw</b> ) bevindt zich <br/>op 565 nm met een venster dat zich uitstrekt <br/>van 530 tot 600 nm</p>
+</td>
 </tr>
-
 <tr>
-<td colspan=2></td>
-<td valign=top align=left><p>The method is to establish an optimal color centered on a fixed wavelength (in 10&#160;nm steps across the spectrum from 360&#160;nm to 830&#160;nm), then to vary the width (<b>w</b>) of the optimal "window" from &#177;5&#160;nm (total width 10&#160;nm) to &#177;225&#160;nm (total width 450&#160;nm), again in 10&#160;nm increments (diagram, right). This increases the luminance of the optimal color from a very narrow spectral band up to a near white.
-</p>
-
+<td colspan="2"></td>
+<td align="left" valign="top"><p>De variaties in helderheid over dit 70 nm circuit lijken op een sinusgolf (diagram, rechts), met maximale helderheid bij de piekgevoeligheid van de <b>L-</b> kegel (cw 565 nm, CIECAM-tinthoek 110°) en minimale helderheid bij de piekgevoeligheid van de <b>S- kegel (cw 445 nm, tinthoek 262°). Dit illustreert opnieuw het belang van de </b><b>L-S</b> -tegenstelling als ankerpunt voor zowel <a class="text" href="color2.html#tilting">luminantie- als chromaticiteitscontrasten</a> in oppervlaktekleuren. Merk nogmaals op (diagram, boven) dat, op het niveau van de kegelrespons, het <b>L-S</b> -contrast naar groen wordt gebogen door de <i>groengele</i> locatie van de piekgevoeligheid 
+ van de <b>L- kegel.</b></p>
 <p>
-The diagram (below) shows the results of this procedure. </p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance3.gif" width=378 height=371></p>
-<p class="CC">optimal colors of fixed wavelength location</p>
-<p class="subCC">Stiles &#038; Burch 1964 (10&deg;) colormatching functions in CIECAM under EE illuminant; optimal colors defined as blocks of 100% reflectance from 10&#160;nm to 450&#160;nm wide that are centered on fixed wavelengths spaced 10&#160;nm apart from 360&#160;nm to 830&#160;nm
+Het 70 nm-circuit geeft aan dat de overgangen tussen groen en violet naadloos en sterk chromatisch zijn, hoewel de chroma van geelgroen, geel en spectrumrood ongeveer 40% groter is dan de chroma van blauwgroen, blauw en paars. Het <i>perceptuele potentieel</i> voor extreme chromasensatie in oppervlaktekleuren is perceptueel bevooroordeeld ten gunste van gele ( <b>b+</b> ) reflectie en hoge luminantie. Als we geen extreem verzadigde groene oppervlakken zien, komt dit door een chemische beperking of een natuurlijke schaarste aan de maximale chroma die oppervlakken aan het oog presenteren. 
 </p>
-
-<p>The diagram shows three aspects of the color space:
-</p>
-
 <p>
-&#149;&#160;The 10&#160;nm circuit (blue circles) essentially outlines the <b>spectrum locus</b> in surface colors. This circuit is black in the extraspectral hues but rises through blues and oranges to a peak of chroma and luminance in the greens.
+Ik heb al gewezen op de hoge kleurkracht van "blauwviolet" licht, en het diagram (hierboven) laat het effect zien van het toevoegen van blokken van 15 nm met een korte golflengte, of al het licht onder de 445 nm, aan de 70 nm kleuren van 615 nm (580-650 nm) tot 525 nm (490-560 nm, ~optimaal groen). Het belangrijkste effect is de toegenomen kleurkracht van golflengten dichter bij de <b>S</b> -kegelpiek (bij 445 nm). Maar deze effecten zijn niet additief: "blauw" licht wordt proportioneel minder krachtig naarmate er meer van (360-445 nm) aan de warme kleur wordt toegevoegd. Het "blauwviolet" licht heeft ook een veel sterkere invloed op extreem "rood" licht dan op het helderdere "groene" licht.
 </p>
-
 <p>
-&#149;&#160;The lines of <b>centered reflectance</b> (constant central wavelength, blue lines) show the hue and chroma trace for each of the central wavelengths. These depart from the sprectrum locus and follow a curving path as the total centered reflectance increases the luminance. The blue dots indicate 10&#160;nm increments in the reflectance window.
+Het diagram toont ook het effect van al het licht boven 655 nm op de kleuren van 70 nm, van 525 nm (490-560 nm, ~optimaal groen) tot 450 nm (415-485 nm, ~optimaal cyaan). Dit demonstreert de veel zwakkere kleurkracht van "rood" licht in het korte golflengtegebied van het spectrum, ondanks het feit (zoals blijkt uit de luminantiecurve rechtsboven) dat "rood" licht veel helderder is dan "blauw" licht.
 </p>
-
 <p>
-&#149;&#160;The lines of <b>complete reflectance</b> (white circles) represent the near white convergence of the hue lines at 450&#160;nm. (All hue lines converge to a single <i>white point</i> at 470&#160;nm.) This shows that blues and purples are laggard to reach white, and that hue centers from orange red to yellow form a spike of pale pure yellow.
-<br><a name="satcircuit"></a></td>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/ridge3.gif" width=200 height=124></p>
-<p class="SC">fixed wavelength optimal color of variable width</p>
-<p class="subSC">the fixed wavelength at 650&#160;nm with variable width (<b>w</b>) shown at 200&#160;nm (550&#150;750&#160;nm)</i></td>
+De verschuiving van "blauw" getinte kleuren is rechtstreeks gericht naar de piekgevoeligheid van de <b>S-</b> kegel (blauwe driehoek), terwijl de verschuiving veroorzaakt door "rood" licht niet naar boven gericht is naar de piekgevoeligheid van <b>de L-</b> kegel (rode driehoek), maar diagonaal naar het punt van maximale chroma in het gele circuit, bij een tinthoek van 45° (zie <a class="text" href="#balance1">diagram hierboven</a> ). Dit illustreert opnieuw de "hermapping" met de klok mee van de bijdrage van de <b>L-</b> kegel aan de tintcirkel.<a name="optimalhues"></a></p>
+<p class="floatArrow"><a class="text" href="#top"><img border="0" height="14" src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width="10"/></a></p><h3>additieve veranderingen in tint en helderheid</h3>
+<p><img align="left" height="1" src="space.gif" width="90"/></p><p>In het vorige gedeelte hebben we de kleurruimte "horizontaal" bekeken door een venster van 70 nm over het spectrum te verschuiven. Nu bekijken we de kleurruimte <i>verticaal,</i> door de optimale kleur te centreren op één golflengte en vervolgens symmetrisch golflengten aan weerszijden daarvan toe te voegen.</p></td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="191" src="https://www.handprint.com/HP/WCL/IMG/jopt.gif" width="193"/></p>
+<p class="SC">CIECAM-lichtheid van <br/>70 nm optimaal circuit</p>
+<p class="subSC">gebied van "extraspectrale" ("blauw" + "rood") mengsels in roze</p></td>
 </tr>
-
 <tr>
-<td colspan=2></td>
-<td valign=top align=left><p>The contours of these fixed wavelength lines remains constant when displayed as saturation (which takes into account the luminance of the color) rather than chroma (diagram, right). 
-
+<td colspan="2"></td>
+<td align="left" valign="top"><p>De methode bestaat erin een optimale kleur te bepalen rond een vaste golflengte (in stappen van 10 nm over het spectrum van 360 nm tot 830 nm), en vervolgens de breedte ( <b>w</b> ) van het optimale "venster" te variëren van ±5 nm (totale breedte 10 nm) tot ±225 nm (totale breedte 450 nm), wederom in stappen van 10 nm (diagram rechts). Dit verhoogt de helderheid van de optimale kleur van een zeer smalle spectrale band tot bijna wit.
 </p>
-
 <p>
-The first impression is of complex loops, but these have a precise structure. There are six points where the centered reflectance maintains a nearly constant hue angle: at 485, 530 and 570&#160;nm (red dots). These are identical with the cyan, green and yellow optimal colors. All hues within this hue span loop toward cyan or yellow as the centered luminance increases, indicating that the "blue" or "red" end of the spectrum dominates the mixture, but by only a small amount. 
+Het diagram (hieronder) toont de resultaten van deze procedure.</p>
+<p class="imgC"><img height="371" src="https://www.handprint.com/HP/WCL/IMG/balance3.gif" width="378"/></p>
+<p class="CC">optimale kleuren van vaste golflengte locatie</p>
+<p class="subCC">Stiles &amp; Burch 1964 (10°) kleuraanpassingsfuncties in CIECAM onder EE-lichtbron; optimale kleuren gedefinieerd als blokken van 100% reflectie van 10 nm tot 450 nm breed, gecentreerd op vaste golflengten met een onderlinge afstand van 10 nm van 360 nm tot 830 nm.
 </p>
-
-<p>
-On either side, the two quadrants of "blue" and "orange" wavelengths shift strongly toward the cyan or yellow white limit as luminance increases, causing them to assume a cyan or yellow hue as the luminance approaches white. This shift is quite large, as shown for the wavelengths 650&#160;nm and 450&#160;nm (diagram, right). 
+<p>Het diagram toont drie aspecten van de kleurruimte:
 </p>
-
 <p>
-It is clear that optimal cyan, green and yellow define very stable hue lines in the color space. These hues remain constant as reflectance around them is increased. In contrast, optimal blue and orange are shifted very far from the lines of constant hue (at 665&#160;nm and 390&#160;nm), and these color shift very strongly toward green as the luminance increases: they occupy the dim ends of the spectrum, so "green" wavelengths have a very strong effect on the hue.
+• Het circuit van 10 nm (blauwe cirkels) geeft in feite de <b>spectrale locus</b> in oppervlaktekleuren weer. Dit circuit is zwart in de extraspectrale tinten, maar loopt via blauw en oranje omhoog naar een piek in chroma en luminantie in het groen.
 </p>
-
 <p>
-Finally, the extraspectral space centered between 730&#160;nm and 820&#160;nm produces the red violets, violets and blue violets, culminating at 830&#160;nm in a blue violet that lies along the cyan black limit. The hues throughout this fourth quadrant vary between as the luminance increases; The hue closest to optimal magenta is around a central wavelength of 800&#160;nm, very far in the infrared, which makes magenta a dull color in surfaces but a radiant color in light. This fourth quadrant expresses the balance between short and long wavelength light as transitions between red violet or blue violet, which have their effect principally in desaturating yellow.
+• De lijnen van <b>gecentreerde reflectie</b> (constante centrale golflengte, blauwe lijnen) tonen het verloop van de tint en de verzadiging voor elk van de centrale golflengten. Deze lijnen wijken af ​​van de spectrumcurve en volgen een gebogen pad naarmate de totale gecentreerde reflectie de luminantie verhoogt. De blauwe stippen geven stappen van 10 nm in het reflectievenster aan.
 </p>
-
 <p>
-On the one hand are the cyan, green and yellow anchors which are robust to luminance increases, and on the other are blue, magenta and orange that are very sensitive to luminance increases and (in orange and magenta) in the relative proportions of short and long wavelengths.</p></td>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/balance6.gif" width=200 height=200></p>
-<p class="SC">fixed wavelength optimal colors in the CIECAM saturation metric</b></td>
+• De lijnen van <b>volledige reflectie</b> (witte cirkels) vertegenwoordigen de bijna-witte convergentie van de kleurlijnen bij 450 nm. (Alle kleurlijnen convergeren naar één <i>wit punt</i> bij 470 nm.) Dit laat zien dat blauw en paars er langer over doen om wit te bereiken, en dat kleurcentra van oranjerood tot geel een piek van licht, puur geel vormen.
+<br/><a name="satcircuit"></a></p></td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="124" src="https://www.handprint.com/HP/WCL/IMG/ridge3.gif" width="200"/></p>
+<p class="SC">vaste golflengte optimale kleur van variabele breedte</p>
+<p class="subSC">de vaste golflengte van 650 nm met variabele breedte ( <b>w</b> ) weergegeven bij 200 nm (550–750 nm)</p></td>
 </tr>
-
 <tr>
-<td colspan=2></td>
-<td valign=top align=left><p>CIECAM attempts to be a <i>uniform color space,</i> so that an equal spatial distance between two colors represents an equal perceptual difference between them. However it is instructive to keep in mind the <a class="text" href="color6.html#xycurves">xy chromaticity diagram</a> and the large portion of the space devoted to green colors and the substantial smaller area alloted to "blue" colors (diagram, below).</p>
+<td colspan="2"></td>
+<td align="left" valign="top"><p>De contouren van deze lijnen met vaste golflengte blijven constant wanneer ze worden weergegeven als verzadiging (waarbij rekening wordt gehouden met de helderheid van de kleur) in plaats van chroma (diagram, rechts). 
 
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/CIE1964.jpg" width=380 height=387></p>
-<p class="CC">CIE 1964 xy chromaticity diagram</p>
-
-<p>On the one hand, the green colors are expanded and the blue colors reduced because of the luminance contrast between them; the red colors are expanded through chromatic sensitivity. This indicates that we see red and green colors as dull due to their material properties of dullness, and that we see blues as intense due to their high tinting strength. 
 </p>
-
-<p>Finally, the expanded reflectance window increases the luminance (lightness) of the color in systematic ways.</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance5.gif" width=380 height=183></p>
-<p class="CC">luminance contours in optimal colors</p>
-<p class="subCC">six circuits of optimal colors of widths <b>w</b> = 10, 90, 180, 270, 360 and 450&#160;nm in CIECAM under EE illuminant</p>
-
-<p>Here is the luminance on each side of the color space.</p>
-
-<p>Here again, we have to be careful of how we interpret these diagrams, because they show how CIECAM represents the procedure we have described, not how a visual color matching task would show.<a name="naturalchroma"></a></p>
-
-<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>natural chroma benchmarks</h3>
-
-<p><img src="space.gif" width=90 height=1 align=left><p>The lightness variations of surface colors are conventionally described in two ways: as a physically possible perceptual range (roughly from <b>L*</b> = 95 to 5, a luminance ratio of about 150:1) and as an average or middle value of environmental surfaces (typically <b>L*</b> = 50, an average reflectance of about 19%).
-</p>
-
 <p>
-What are comparable benchmark values for chroma? Chroma has a different perceptual structure than lightness, since it is anchored in an achromatic value and increases into different dimensions of hue. But we can still ask what is an extreme upper limit for chroma, and what is a useful "natural" average value.
+De eerste indruk is die van complexe lussen, maar deze hebben een precieze structuur. Er zijn zes punten waar de gecentreerde reflectie een vrijwel constante tinthoek behoudt: bij 485, 530 en 570 nm (rode stippen). Deze zijn identiek aan de optimale kleuren cyaan, groen en geel. Alle tinten binnen dit kleurbereik neigen naar cyaan of geel naarmate de gecentreerde helderheid toeneemt, wat aangeeft dat het "blauwe" of "rode" uiteinde van het spectrum de mengeling domineert, maar slechts in geringe mate. 
 </p>
-
 <p>
-Perceptual psychologists have traditionally used <a class="text" href="color3.html#purechroma">spectral hues</a> as the standard maximum value for hue purity. But as we rarely experience spectral hues, and perceive surface colors very differently from light colors, spectral hues have a limited technical application to define the response contours of photoreceptor cells and opponent pathways.
+Aan weerszijden verschuiven de twee kwadranten van "blauwe" en "oranje" golflengten sterk naar de grens van cyaan of geel wit naarmate de helderheid toeneemt, waardoor ze een cyaan of gele tint aannemen wanneer de helderheid wit nadert. Deze verschuiving is vrij groot, zoals te zien is voor de golflengten van 650 nm en 450 nm (diagram, rechts). 
 </p>
-
 <p>
-As I explain in my discussion of <a class="text" href="color3.html#huepurity">hue&#160;purity</a>, surface color chroma seems perceptually scaled to the physical limits of surface colors, which are defined by <a class="text" href="color3.html#optimalstimuli">optimal colors</a>. But optimal colors are impossible surfaces &#151; perfect absorbers and reflectors of light, scattering nothing at their surface and leaking no light energy into the infrared &#151; so while the chroma they define can be taken as the maximum chroma value, they do not help with the problem of "average" chroma values for surface colors.
+Het is duidelijk dat optimale cyaan, groen en geel zeer stabiele kleurlijnen in de kleurruimte definiëren. Deze kleuren blijven constant naarmate de reflectie eromheen toeneemt. Daarentegen liggen optimale blauw en oranje ver van de lijnen met constante kleur (bij 665 nm en 390 nm), en deze kleuren verschuiven sterk naar groen naarmate de luminantie toeneemt: ze bevinden zich aan de zwakke uiteinden van het spectrum, waardoor "groene" golflengten een zeer sterke invloed hebben op de kleur.
 </p>
-
 <p>
-In lieu of a photographic survey of natural surfaces, a simple expedient is to examine the chroma distribution of 175 commercial watercolor pigments, including several dozen pigments manufactured from <a class="text" href="watere.html">iron oxides</a> and <a class="text" href="primatek.html#minerals">silicate compounds</a> common in the earth's crust. When these are sorted by CIECAM chroma, they produce a surprisingly linear distribution with a median chroma value of about 55 and a maximum value of about 95.</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/pigsort.gif" width=380 height=311></p>
-<p class="CC">chroma distribution in watercolor pigments</p>
-<p class="subCC">each bar represents a single pigment; bars are color coded into six hue categories (red, orange, yellow, green, blue and violet)
+Ten slotte produceert de extraspectrale ruimte gecentreerd tussen 730 nm en 820 nm de roodviolette, violette en blauwviolette tinten, met als hoogtepunt bij 830 nm een ​​blauwviolette tint die zich langs de grens van cyaanzwart bevindt. De tinten in dit vierde kwadrant variëren naarmate de luminantie toeneemt; de tint die het dichtst bij optimaal magenta ligt, bevindt zich rond een centrale golflengte van 800 nm, zeer ver in het infrarood, waardoor magenta een doffe kleur is op oppervlakken, maar een stralende kleur in licht. Dit vierde kwadrant drukt de balans uit tussen licht met korte en lange golflengten als overgangen tussen roodviolet of blauwviolet, die voornamelijk het effect hebben van het desatureren van geel.
 </p>
-
-<p>All pigments listed as "moderately intense" in the <a class="text" href="waterfs.html">guide to watercolor pigments</a> are representative of this chroma range, including: copper azomethine green (<a class="text" href="watery.html#PY129">PY129</a>), chrome titanate ochre (<a class="text" href="watere.html#PBr24">PBr24</a>), quinacridone orange (<a class="text" href="watere.html#PO48">PO48</a>), perylene maroon (<a class="text" href="waterr.html#PR179">PR179</a>), quinacridone violet (<a class="text" href="waterc.html#PV19B">PV19</a>), cobalt violet light (<a class="text" href="waterv.html#PV49">PV49</a>), ultramarine violet (<a class="text" href="waterv.html#PV15">PV15</a>), phthalo blue (<a class="text" href="waterb.html#PB15:3">PB15:3</a>), cerulean blue (<a class="text" href="waterb.html#PB36">PB36</a>), cobalt teal blue (<a class="text" href="waterg.html#PG50">PG50</a>) and phthalo green YS (<a class="text" href="waterg.html#PG36">PG36</a>).
-</p>
-
 <p>
-To provide a visual example, the hue circle (diagram, below) shows hues as they appear at two "middle" CIECAM lightnesses (<b>J</b> = 62 and 45) at constant chroma (<b>C</b> = ~55). These nuance colors can be matched by replacing each wavelength of 0% reflectance in the 70&#160;nm circuit with reflectance of between 30% to 60% (depending on the hue). This represents a substantial amount of <a class="text" href="color10.html#blackness">"white" light scattering</a>, but high surface scattering is typical of most unwetted mineral surfaces.</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/chrom8.jpg" width=380 height=380></p>
-<p class="CC">a natural chroma benchmark</p>
-<p class="subCC">munsell hues at chroma 10 and lightness 62 (outer ring, average CIECAM chroma 54) and lightness 45 (inner ring, CIECAM chroma 56); background lightness 50 (periphery) and 30 (center)
-</p>
-
-<p>I offer the hypothesis that an environment consisting entirely of colored surfaces at a chroma of 55 would appear subjectively "very colorful" and that chroma variations between 0 and 55 would be judged appealing and subdued. In contrast to this range of <i>structural chroma</i> associated with most natural and animal colors, chroma values above 55 would comprise the <i>display chroma</i> associated with pigmented surfaces in biology and advertising. Note in the pigment distribution (above) that this includes a disproportionate number of yellow and red pigments, reaffirming the chromatic bias toward luminous red, yellow and yellow green colors inherent in human color vision.<a name="structurefunction"></a></p>
-
-<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>what is the perceptual structure for?</h3>
-
-<p><img src="space.gif" width=90 height=1 align=left><p>Now let's briefly compare the CIECAM surface color white limits at 485&#160;nm and 565&#160;nm with the five most significant perceptual landmarks identified in color vision research &#151; cone <a class="text" href="color1.html#normconesens">peak sensitivity</a>, color vision <a class="text" href="colorb.html#threekinds">white points</a> or the wavelengths where the responses of two cones are equal (as measured in persons with colorblindness); the bands of maximum <a class="text" href="color2.html#Wpattern">hue discrimination</a>; the location of the four <a class="text" href="color2.html#opponentcurves">unique hues</a>; and <a class="text" href="color2.html#balancepoints">balance points</a> on the opponent dimensions. These are located in the hue circle diagram (<a class="text" href="#balance1">above</a>) and summarized in a simpler form in the diagram (below).</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/balance1a.gif" width=372 height=364></p>
-<p class="CC">perceptual landmarks &#038; the optimal circuits</p>
-<p class="subCC">see text for explanation</p>
-
-<p>On first examination, the black limits map directly onto the extreme long and short wavelength boundaries in the sensitivity of the <b>L</b> cone. Other than that, we cannot point to the cone fundamentals, opponent dimensions or areas of peak hue discrimination as the anchor for both of the surface color white limits. 
-</p>
-
-<p>
-If we consider the white limits separately, the yellow limit at 565&#160;nm is most closely related to the <b>L</b> cone peak response, the <b>y+</b> end of the <b>y/b</b> opponent dimension, and the <b>L,M</b> (tritanopia) white point. Optimal yellow (570&#160;nm) is also approximately the point where the <b>S</b> cone no longer contributes to hue discrimination, and the point where saturation induced additivity errors (the <a class="text" href="color2.html#HKeffect">Helmholtz-Kohlrausch effect</a>) are at a minimum. Thus, several levels of visual structure converge at the yellow white limit. 
-</p>
-
-<p>
-In contrast, the cyan white limit at 485&#160;nm is not associated with the <b>M,S</b> or <b>L,S</b> white points or the <b>g+</b> end of the <b>r/g</b> opponent dimension; it is however embedded in an area of maximum hue discrimination as shown in <a class="text" href="color2.html#Wpattern">monochromatic color matching</a>, in <a class="text" href="color2.html#huecancel">hue cancellation mixtures</a>, and in areas of increased <a class="text" href="color2.html#huespace">spectral hue spacing</a> in CIECAM.
-</p>
-
-<p>
-Areas of <i>minimum</i> spectral <a class="text" href="color2.html#tinttest">tinting strength</a> appear at both the yellow and cyan white limits. This reaffirms the idea that these are "balance points" between cones, wavelengths that have relatively less "leverage" in tinting the color of lights or surfaces.
-</p>
-
-<p>
-If we step back and look at the yellow and cyan circuits within the hue circle (<a class="text" href="#balance1">diagram, above</a>), it is obvious that they define a <a class="text" href="color13.html#compprobs">complementary color</a> contrast:
-</p>
-
-<p>
-&#149;&#160;Each neutralizes the other: the yellow circuit whitens as its boundary wavelength approaches the cyan white limit, and the cyan circuit as its boundary wavelength approaches the yellow white limit.
-</p>
-
-<p>
-&#149;&#160;The white limit of each circuit is opposite the black limit of the other circuit.
-</p>
-
-<p>
-&#149;&#160;The points of maximum chroma in each circuit &#151; at hue angles 45&deg; ("orange") and 230&deg; ("blue") &#151; are CIECAM visual complements, as are optimal orange and optimal blue, the colors created by all the wavelengths within the two spectrum end segments.
-</p>
-
-<p>
-Finally, research that examines the <a class="text" href="color2.html#greendiffs">individual differences</a> or disagreement between people in the identification of the four unique hues &#151; red, yellow, green and blue &#151; indicates that the least variation appears in the identification of yellow, the greatest variation in the identification of green, with red and blue in between.
-</p>
-
-<p>
-If we combine these strands of evidence &#151; the convergence of structure around optimal yellow, the opponency between the two optimal circuits, and the individual variation in unique hue identification &#151; one can hypothesize an <i>adaptation model</i> of color vision (diagram, below). This model assumes the genetic foundations of color vision are fine tuned by environmental stimulation during early development, and that the dimensions of developmental change occur within the same mechanisms that produce <a class="text" href="color4.html#sensitivity">luminance adaptation</a> and <a class="text" href="color4.html#chromaadapt">chromatic adaptation</a>.</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/functmod.gif" width=367 height=363></p>
-<p class="CC">an adaptation model of color vision opponency</p>
-
-<p>The yellow balance (<b>y+</b>) anchors the entire system, and is formed by adjusting the relative contrast weights assigned to the <b>M</b> and <b>L</b> cone outputs (<b>1</b>). (Summing the two outputs produces photopic <a class="text" href="color1.html#newpsf">luminosity function</a>.) There is good evidence that this adjustment neutralizes the chromaticity of external <a class="text" href="color12.html#daylocus">natural light</a>, compensates for the optical effects of <a class="text" href="color1.html#edges">chromatic aberration</a> and makes achromatic the tinting caused by <a class="text" href="color1.html#macular">prereceptoral filtering</a>. These multiple convergence criteria produce the highly consistent anchoring of unique yellow, optimal yellow and the <b>y+</b> end of the <b>y/b</b> opponent dimension. 
-</p>
-
-<p>
-The next adjustment, to create complementarity, is the alignment of the <b>S</b> cone outputs to neutralize optimal yellow, which amounts to placing the cyan black limit directly opposite the yellow white limit. This probably occurs by adjusting the negative correlation between the <b>L</b> and <b>S</b> cone outputs (<b>2</b>), as found in modern color models (for example in <a class="text" href="color2.html#postzone">CIECAM</a>) and inherited from the <b>y/b</b> opponency of <a class="text" href="color1.html#dichromat">primate dichromatism</a>. Because internal optics and the "yellow" filtering by macular pigment change substantially with age and have a very large <a class="text" href="color1.html#macular">filtering effect</a> in the wavelengths of <b>S</b> cone sensitivity, this adjustment is considerably more variable in its effects on blue color perception. This produces the large displacement in the <b>b+</b> neutral point and the variability in unique blue. The adjustment also produces a relatively stable unique red (<b>3</b>), an extraspectral hue at right angles to unique yellow, where it limits the neutralizing effect of "blue" light in "warm" (red, orange and yellow) hue perception.
-</p>
-
-<p>
-These two adjustments force the accommodation between the <b>M</b> and <b>S</b> cones and the location of their balance point (<b>4</b>), which must be shifted by the two previous adjustments. As we would expect, because both the <b>L</b> and <b>S</b> cones are "mobile" in this model, the cyan white limit is much less visually salient than yellow, and the <b>L,S</b> balance point (the white point in deuteranopia) is <a class="text" href="colorb.html#threetypes">more variable</a> than the <b>M,S</b> balance point (the white point in protanopia). As a result the perception of unique green is highly variable across individuals. Notice too that the negative adjustment between <b>L</b> and <b>M</b>, and then between <b>L</b> and <b>S</b>, has forced the <b>b+</b> and <b>g+</b> opponent ends (as measured in neural pathways, not in surface color perception) toward yellow, as a hue somewhere between <i>green blue</i> and <i>blue green</i> is the visual complement of unique red. 
-
-</p>
-
-<p>
-The <b>L</b>, <b>M</b> and <b>S</b> cones contribute to color mixture in very different ways. The mixture effects of the <b>L</b> and <b>M</b> cones have been "remapped" through complex combinations to provide all three dimensions of the color space. In contrast the <b>S</b> cone outputs either play no role at all (in <a class="text" href="color1.html#newpsf">luminance perception</a>) or act as a stable contrast anchor for both the <a class="text" href="color2.html#bluewgts">y/b and r/g opponent dimensions</a>. In this anchoring role, small quantities of "blue violet" light function as a <i>potent tint</i> (for example, as a spike of illuminance in an otherwise "white" fluorescent light, or as a "brightener" in white colors), and larger quantities of "blue" light <i>as an illuminant,</i> where a distinct blue color is imparted to reflecting surfaces.
-</p>
-
-<p>
-If we anchor the hue circle on optimal yellow (at 90&deg;), we find a symmetrical placement of optimal green and orange at about 40&deg; on either side of optimal yellow, and optimal green and optimal magenta are in near perfect opponency. These seem to be the critical compass points in color vision. The green/magenta opponency replicates very well the large <a class="text" href="color4.html#trezona">green/magenta component</a> that stabilizes maximum saturation color matching across mesopic and scotopic vision (first identified by Trezona). This mechanism would serve to balance the <b>L,M</b> outputs (green) against the <b>L,S</b> outputs (magenta) across different <a class="text" href="color4.html#yellowbalance">illuminance levels</a>: an adaptation toward <i>green</i> would occur at high illuminances and toward <i>magenta</i> at low illuminances.
-</p>
-
-<p>
-One more point about green. Using the logic that visual complementary <i>light mixtures</i> must always add to a complete "white" spectrum, the cardinal <b>visual complementary contrasts</b> defined by this analysis are <i>yellow orange:green blue</i> (optimal orange + optimal cyan = white), <i>green:red violet</i> (optimal green + optimal magenta = white), and <i>violet blue:yellow</i> (optimal blue + optimal yellow = white). However, only the <i>green</i>:<i>red violet</i> contrast is a visual complement in CIECAM or in the Munsell Color System; the other two are "bent" by 32&deg; (yellow/blue) or 40&deg; (orange/cyan) toward optimal green. This creates the well known discrepancy between <a class="text" href="color16.html#whydifference">visual and subtractive mixture</a> in complementary colors: the "warm" color in the pair of <i>mixing</i> complements must contain less green (visually, more red) than the surface color matching the <i>visual</i> complements.
-</p>
-
-<p>
-Reasoning from surface color perception rather than light perception, and using adaptation as a functional premise for visual structure, there is a <b>"green/extreme" tension</b> between luminance weighted "green" reflectance at the center of the spectrum and chromaticity weighted "blue" or "red" reflectance at the short or long wavelength extremes of the spectrum.</p></td>
-<td colspan=2></td>
+Enerzijds zijn er de cyaan-, groene en gele ankers die robuust zijn ten opzichte van helderheidsverhogingen, en anderzijds zijn er blauw, magenta en oranje die zeer gevoelig zijn voor helderheidsverhogingen en (bij oranje en magenta) voor de relatieve verhoudingen van korte en lange golflengten.</p></td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="200" src="https://www.handprint.com/HP/WCL/IMG/balance6.gif" width="200"/></p>
+<p class="SC">vaste golflengte optimale kleuren in de CIECAM-verzadigingsmetriek</p></td>
 </tr>
-
 <tr>
-<td colspan=2></td>
-<td valign=top align=left><p>Finally, we can identify the "metacomplementary" orange/blue or <a class="text" href="color12.html#warmcool">warm/cool contrast</a> with the opposition between the yellow and cyan circuits, which appears in the near complementary relationship of the <i>orange yellow</i> and <i>violet blue</i> hues created by summing the reflectance between each circuit's black and white limits (image, right).</p>
-
-<p>This synthesis shows that color vision is fundamentally organized in relation to the spectrum ends, contrasting short and long wavelength light into two opposing spectrum signals, symbolized perceptually as <i>yellow</i> and <i>cyan.</i> This reflects the evolutionary precedence of <a class="text" href="color1.html#dichromat">dichromatic vision</a> that we inherited from our primate ancestors.
+<td colspan="2"></td>
+<td align="left" valign="top"><p>CIECAM streeft naar een <i>uniforme kleurruimte,</i> zodat een gelijke ruimtelijke afstand tussen twee kleuren een gelijk perceptueel verschil tussen beide kleuren vertegenwoordigt. Het is echter leerzaam om het <a class="text" href="color6.html#xycurves">xy-chromaticiteitsdiagram</a> in gedachten te houden , waarbij een groot deel van de ruimte is gereserveerd voor groene kleuren en een aanzienlijk kleiner gebied voor blauwe kleuren (zie diagram hieronder).</p>
+<p class="imgC"><img height="387" src="https://www.handprint.com/HP/WCL/IMG/CIE1964.jpg" width="380"/></p>
+<p class="CC">CIE 1964 xy kleurkwaliteitsdiagram</p>
+<p>Enerzijds worden de groene kleuren versterkt en de blauwe kleuren verzwakt door het helderheidscontrast ertussen; anderzijds worden de rode kleuren versterkt door chromatische gevoeligheid. Dit duidt erop dat we rode en groene kleuren als dof waarnemen vanwege hun materiële eigenschappen van dofheid, en dat we blauw als intens waarnemen vanwege hun hoge kleurkracht. 
 </p>
-
-<p>
-<b>The Y/B Opponency</b>. Roger Shepard and others have observed that the <a class="text" href="color1.html#psf">photopic sensitivity function</a> (<b>L+M</b>) handles luminance variations within an established luminance adaptation level, and the <a class="text" href="color1.html#dichromat">y/b opponent function</a> handles <a class="text" href="color4.html#chromaadapt">chromatic adaptation</a> to natural variations in daylight. <a class="text" href="color1.html#solarlight">Natural light</a> can be attributed to different sources at opposite ends of the spectrum. The long wavelengths (heat) arise from <b>sunlight</b>, which has a correlated color temperature (CCT) that resembles most forms of <a class="text" href="color12.html#CCT">incandescent light</a>; the short wavelengths are contributed by <b>skylight</b> which has a CCT from 7500 K&deg; to above 20,000 K&deg; in <a class="text" href="color12.html#wcequalsyb">middle blue</a>, which is deficient in long wavelength radiance due to Rayleigh scattering. There are many other kinds of light, but sun, fire and sky are the predominant light sources illuminating the surfaces around us.
+<p>Tot slot verhoogt het vergrote reflectievenster de helderheid (lichtheid) van de kleur op systematische wijze.</p>
+<p class="imgC"><img height="183" src="https://www.handprint.com/HP/WCL/IMG/balance5.gif" width="380"/></p>
+<p class="CC">helderheidscontouren in optimale kleuren</p>
+<p class="subCC">zes circuits met optimale kleuren met breedtes <b>w</b> = 10, 90, 180, 270, 360 en 450 nm in CIECAM onder EE-lichtbron</p>
+<p>Hier is de helderheid aan weerszijden van de kleurruimte.</p>
+<p>Ook hier moeten we voorzichtig zijn met de interpretatie van deze diagrammen, omdat ze laten zien hoe CIECAM de door ons beschreven procedure weergeeft, en niet hoe een visuele kleurvergelijkingstaak dat zou doen.<a name="naturalchroma"></a></p>
+<p class="floatArrow"><a class="text" href="#top"><img border="0" height="14" src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width="10"/></a></p><h3>natuurlijke kleurreferenties</h3>
+<p><img align="left" height="1" src="space.gif" width="90"/></p><p>De variaties in helderheid van oppervlaktekleuren worden doorgaans op twee manieren beschreven: als een fysiek mogelijk perceptueel bereik (ongeveer van <b>L*</b> = 95 tot 5, een luminantieverhouding van ongeveer 150:1) en als een gemiddelde of middenwaarde van omgevingsoppervlakken (doorgaans <b>L*</b> = 50, een gemiddelde reflectie van ongeveer 19%).
 </p>
-
 <p>
-The yellow and cyan optimal circuits illustrate the importance of this contrast. The <b>b</b> end of the <b>y/b</b> opponent contrast is bent away from opposition to yellow toward the hue of sky blue. Optimal yellow is not a "pure" yellow but a green yellow, the hue of direct sunlight.
+Wat zijn vergelijkbare referentiewaarden voor chroma? Chroma heeft een andere perceptuele structuur dan helderheid, omdat het is gebaseerd op een achromatische waarde en toeneemt in verschillende dimensies van tint. Maar we kunnen ons nog steeds afvragen wat een extreme bovengrens is voor chroma, en wat een bruikbare "natuurlijke" gemiddelde waarde is.
 </p>
-
 <p>
-<b>The R/G Opponency</b>. Shepard also suggests the <a class="text" href="color1.html#trichromat">r/g opponent function</a> handles adaptation to dust and smoke scattering, which reddens light. However the red/green variance in natural light is typically small, and the experience of both sunset light and smoke reddened sunlight is lurid and striking, evidence that the eye cannot compensate for red light very well; the r/g contrast is implicated in many other functions, for example in enhanced <a class="text" href="color4a.html#opponentfrequency">chromatic contrast</a>. The magenta/green contrast also reappears in many situations of luminance adaptation or luminance contrast. There is the green shift in the complement to "blue violet" light under high luminance (the <a class="text" href="color4.html#yellowbalance">Wright-Brindley effect</a>), the very large green vs. magenta contrast found by Trezona in her studies of <a class="text" href="color4.html#trezona">tetrachromatic color matching</a>, the appearance of <a class="text" href="goethe.html#plate4">green/magenta bands</a> in high frequency diffraction and refraction images of light/dark bands, and the green shift (the <a class="text" href="color1.html#mesopic">Purkinje shift</a>) during mesopic to scotopic adaptation.
+Perceptuele psychologen hebben traditioneel <a class="text" href="color3.html#purechroma">spectrale tinten</a> gebruikt als de standaard maximale waarde voor kleurzuiverheid. Maar aangezien we spectrale tinten zelden ervaren en oppervlaktekleuren heel anders waarnemen dan lichtkleuren, hebben spectrale tinten een beperkte technische toepassing om de responscontouren van fotoreceptorcellen en tegengestelde paden te definiëren.
+</p>
+<p>
+Zoals ik uitleg in mijn bespreking van <a class="text" href="color3.html#huepurity">kleurzuiverheid</a> , lijkt de kleurverzadiging van een oppervlak perceptueel afgestemd op de fysieke grenzen van oppervlaktekleuren, die worden gedefinieerd door <a class="text" href="color3.html#optimalstimuli">optimale kleuren</a> . Maar optimale kleuren zijn onmogelijke oppervlakken — perfecte absorbeerders en reflectoren van licht, die niets verstrooien aan hun oppervlak en geen lichtenergie doorlaten naar het infrarood — dus hoewel de kleurverzadiging die ze definiëren kan worden beschouwd als de maximale kleurverzadigingswaarde, bieden ze geen oplossing voor het probleem van "gemiddelde" kleurverzadigingswaarden voor oppervlaktekleuren.
+</p>
+<p>
+In plaats van een fotografisch onderzoek van natuurlijke oppervlakken, is een eenvoudige oplossing het onderzoeken van de kleurverdeling van 175 commerciële aquarelverfpigmenten, waaronder enkele tientallen pigmenten gemaakt van <a class="text" href="watere.html">ijzeroxiden</a> en <a class="text" href="primatek.html#minerals">silicaatverbindingen</a> die veel voorkomen in de aardkorst. Wanneer deze worden gesorteerd op CIECAM-kleurwaarde, leveren ze een verrassend lineaire verdeling op met een mediane kleurwaarde van ongeveer 55 en een maximale waarde van ongeveer 95.</p>
+<p class="imgC"><img height="311" src="https://www.handprint.com/HP/WCL/IMG/pigsort.gif" width="380"/></p>
+<p class="CC">kleurverdeling in aquarelpigmenten</p>
+<p class="subCC">Elke balk vertegenwoordigt een enkel pigment; de balken zijn kleurgecodeerd in zes kleurcategorieën (rood, oranje, geel, groen, blauw en violet).
+</p>
+<p>Alle pigmenten die in de <a class="text" href="waterfs.html">gids voor aquarelpigmenten</a> als "matig intens" worden vermeld , zijn representatief voor dit kleurbereik, waaronder: koperazomethinegroen ( <a class="text" href="watery.html#PY129">PY129</a> ), chroomtitanaatoker ( <a class="text" href="watere.html#PBr24">PBr24</a> ), chinacridoneranje ( <a class="text" href="watere.html#PO48">PO48</a> ), peryleenkastanjebruin ( <a class="text" href="waterr.html#PR179">PR179</a> ), chinacridonviolet ( <a class="text" href="waterc.html#PV19B">PV19</a> ), kobaltviolet licht ( <a class="text" href="waterv.html#PV49">PV49</a> ), ultramarijnviolet ( <a class="text" href="waterv.html#PV15">PV15</a> ), ftaloblauw ( <a class="text" href="waterb.html#PB15:3">PB15:3</a> ), ceruleumblauw ( <a class="text" href="waterb.html#PB36">PB36</a> ), kobaltgroenblauw ( <a class="text" href="waterg.html#PG50">PG50</a> ) en ftalogroen YS ( <a class="text" href="waterg.html#PG36">PG36</a> ).
+</p>
+<p>
+Om een ​​visueel voorbeeld te geven: de kleurencirkel (zie diagram hieronder) toont de tinten zoals ze verschijnen bij twee "middelste" CIECAM-helderheden ( <b>J</b> = 62 en 45) bij een constante chroma ( <b>C</b> = ~55). Deze nuancekleuren kunnen worden nagebootst door elke golflengte met 0% reflectie in het 70 nm-circuit te vervangen door een reflectie van 30% tot 60% (afhankelijk van de tint). Dit vertegenwoordigt een aanzienlijke hoeveelheid <a class="text" href="color10.html#blackness">"witte" lichtverstrooiing</a> , maar hoge oppervlakteverstrooiing is typisch voor de meeste onbevochtigde minerale oppervlakken.</p>
+<p class="imgC"><img height="380" src="https://www.handprint.com/HP/WCL/IMG/chrom8.jpg" width="380"/></p>
+<p class="CC">een natuurlijke kleurreferentie</p>
+<p class="subCC">Munsell-tinten met een chroma van 10 en een helderheid van 62 (buitenste ring, gemiddelde CIECAM-chroma 54) en een helderheid van 45 (binnenste ring, CIECAM-chroma 56); achtergrondhelderheid 50 (periferie) en 30 (midden).
+</p>
+<p>Ik opper de hypothese dat een omgeving die volledig bestaat uit gekleurde oppervlakken met een chroma van 55 subjectief als "zeer kleurrijk" zou worden ervaren en dat chroma-variaties tussen 0 en 55 als aantrekkelijk en ingetogen zouden worden beoordeeld. In tegenstelling tot dit bereik van <i>structurele chroma</i> dat geassocieerd wordt met de meeste natuurlijke en dierlijke kleuren, zouden chroma-waarden boven de 55 de <i>weergavechroma</i> vormen die geassocieerd wordt met gepigmenteerde oppervlakken in de biologie en reclame. Merk in de pigmentverdeling (hierboven) op dat deze een onevenredig groot aantal gele en rode pigmenten bevat, wat de chromatische voorkeur voor heldere rode, gele en geelgroene kleuren bevestigt die inherent is aan het menselijk kleurenzicht.<a name="structurefunction"></a></p>
+<p class="floatArrow"><a class="text" href="#top"><img border="0" height="14" src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width="10"/></a></p><h3>Waarvoor dient de perceptuele structuur?</h3>
+<p><img align="left" height="1" src="space.gif" width="90"/></p><p>Laten we nu kort de CIECAM-oppervlaktekleurwitlimieten bij 485 nm en 565 nm vergelijken met de vijf belangrijkste perceptuele ijkpunten die in kleurenzichtonderzoek zijn geïdentificeerd: <a class="text" href="color1.html#normconesens">de piekgevoeligheid van de kegeltjes, </a><a class="text" href="colorb.html#threekinds">de witpunten</a> van het kleurenzicht of de golflengten waarbij de responsen van twee kegeltjes gelijk zijn (zoals gemeten bij mensen met kleurenblindheid); de banden van maximale <a class="text" href="color2.html#Wpattern">kleurdiscriminatie</a> ; de ​​locatie van de vier <a class="text" href="color2.html#opponentcurves">unieke kleuren</a> ; en <a class="text" href="color2.html#balancepoints">de evenwichtspunten</a> op de tegendimensies. Deze zijn weergegeven in het kleurencirkeldiagram ( <a class="text" href="#balance1">hierboven</a> ) en in een vereenvoudigde vorm samengevat in het diagram (hieronder).</p>
+<p class="imgC"><img height="364" src="https://www.handprint.com/HP/WCL/IMG/balance1a.gif" width="372"/></p>
+<p class="CC">perceptuele oriëntatiepunten en de optimale circuits</p>
+<p class="subCC">Zie de tekst voor een uitleg.</p>
+<p>Op het eerste gezicht lijken de zwartgrenzen direct overeen te komen met de extreme lange en korte golflengtegrenzen in de gevoeligheid van de <b>L-</b> kegel. Afgezien daarvan kunnen we de basisprincipes van de kegel, de afmetingen van de tegenpool of gebieden met de hoogste kleurdiscriminatie niet aanwijzen als ankerpunt voor beide witgrenzen van de oppervlaktekleur. 
+</p>
+<p>
+Als we de witgrenzen afzonderlijk beschouwen, is de geelgrens bij 565 nm het nauwst verwant aan de piekrespons van de <b>L- kegeltjes, het </b><b>y+</b> -uiteinde van de <b>y/b</b> -tegendimensie en het <b>L,M-</b> witpunt (tritanopie). Optimaal geel (570 nm) is ook ongeveer het punt waar de <b>S-</b> kegeltjes niet langer bijdragen aan de kleurdiscriminatie en het punt waar door verzadiging veroorzaakte additiviteitsfouten (het <a class="text" href="color2.html#HKeffect">Helmholtz-Kohlrausch-effect</a> ) minimaal zijn. Verschillende niveaus van visuele structuur convergeren dus bij de geelwitgrens. 
+</p>
+<p>
+Daarentegen is de cyaanwitte grens bij 485 nm niet geassocieerd met de <b>M,S-</b> of <b>L,S-</b> witpunten of het <b>g+</b> -uiteinde van de <b>r/g-</b> tegendimensie; deze grens bevindt zich echter in een gebied met maximale kleuronderscheiding, zoals blijkt uit <a class="text" href="color2.html#Wpattern">monochromatische kleuraanpassing</a> , <a class="text" href="color2.html#huecancel">kleurannuleringsmengsels</a> en gebieden met een grotere <a class="text" href="color2.html#huespace">spectrale kleurafstand</a> in CIECAM.
+</p>
+<p>
+Gebieden met <i>een minimale</i> spectrale <a class="text" href="color2.html#tinttest">kleursterkte</a> verschijnen zowel aan de gele als aan de cyaanwitte grens. Dit bevestigt het idee dat dit "evenwichtspunten" zijn tussen kegeltjes, golflengten die relatief minder invloed hebben op de kleur van licht of oppervlakken.
+</p>
+<p>
+Als we een stap terug doen en kijken naar de gele en cyaan circuits binnen de kleurencirkel ( <a class="text" href="#balance1">zie diagram hierboven</a> ), is het duidelijk dat ze een <a class="text" href="color13.html#compprobs">complementair kleurcontrast</a> definiëren :
+</p>
+<p>
+• Ze neutraliseren elkaar: het gele circuit wordt witter naarmate de golflengte van de grens de cyaanwitte grens nadert, en het cyaan circuit wordt witter naarmate de golflengte van de grens de geelwitte grens nadert.
+</p>
+<p>
+• De witte grens van elk circuit ligt tegenover de zwarte grens van het andere circuit.
+</p>
+<p>
+• De punten met maximale kleurintensiteit in elk circuit — bij kleurhoeken van 45° ("oranje") en 230° ("blauw") — zijn de visuele complementen van CIECAM, evenals optimaal oranje en optimaal blauw, de kleuren die worden gecreëerd door alle golflengten binnen de twee uiterste segmenten van het spectrum.
+</p>
+<p>
+Ten slotte blijkt uit onderzoek naar de <a class="text" href="color2.html#greendiffs">individuele verschillen</a> of meningsverschillen tussen mensen bij de identificatie van de vier unieke kleuren – rood, geel, groen en blauw – dat de minste variatie optreedt bij de identificatie van geel, de grootste variatie bij de identificatie van groen, en rood en blauw daartussenin.
+</p>
+<p>
+Als we deze bewijslijnen combineren — de convergentie van de structuur rond optimaal geel, de tegenstelling tussen de twee optimale circuits en de individuele variatie in unieke kleuridentificatie — kunnen we een <i>adaptatiemodel van kleurenzicht formuleren (zie diagram hieronder). Dit model gaat ervan uit dat de genetische basis van kleurenzicht wordt verfijnd door omgevingsstimulatie tijdens de vroege ontwikkeling, en dat de dimensies van ontwikkelingsverandering plaatsvinden binnen dezelfde mechanismen die </i><a class="text" href="color4.html#sensitivity">luminantie-adaptatie</a> en <a class="text" href="color4.html#chromaadapt">chromatische adaptatie</a> produceren .</p>
+<p class="imgC"><img height="363" src="https://www.handprint.com/HP/WCL/IMG/functmod.gif" width="367"/></p>
+<p class="CC">een adaptatiemodel van kleurenzichtopponentie</p>
+<p>De gele balans ( <b>y+</b> ) verankert het hele systeem en wordt gevormd door de relatieve contrastgewichten die aan de <b>M-</b> en <b>L-</b> kegeluitgangen zijn toegekend aan te passen ( <b>1</b> ). (Het optellen van de twee uitgangen levert de fotopische <a class="text" href="color1.html#newpsf">luminositeitsfunctie</a> op .) Er is sterk bewijs dat deze aanpassing de chromaticiteit van extern <a class="text" href="color12.html#daylocus">natuurlijk licht neutraliseert, de optische effecten van </a><a class="text" href="color1.html#edges">chromatische aberratie</a> compenseert en de tinting veroorzaakt door <a class="text" href="color1.html#macular">prereceptorale filtering</a> achromatisch maakt . Deze meervoudige convergentiecriteria zorgen voor de zeer consistente verankering van uniek geel, optimaal geel en het <b>y+</b> -uiteinde van de <b>y/b-</b> tegendimensie. 
+</p>
+<p>
+De volgende aanpassing, om complementariteit te creëren, is de afstemming van de <b>S</b> -kegeluitgangen om optimaal geel te neutraliseren, wat neerkomt op het direct tegenover elkaar plaatsen van de cyaan-zwartgrens en de geel-witgrens. Dit gebeurt waarschijnlijk door de negatieve correlatie tussen de <b>L-</b> en <b>S</b> -kegeluitgangen aan te passen ( <b>2</b> ), zoals gevonden in moderne kleurenmodellen (bijvoorbeeld in <a class="text" href="color2.html#postzone">CIECAM</a> ) en geërfd van de <b>y/b</b> -tegenstelling van <a class="text" href="color1.html#dichromat">primatendichromatisme</a> . Omdat de interne optiek en de "gele" filtering door maculapigment aanzienlijk veranderen met de leeftijd en een zeer groot <a class="text" href="color1.html#macular">filtereffect</a> hebben in de golflengten van <b>S-</b> kegelgevoeligheid, is deze aanpassing aanzienlijk variabeler in zijn effecten op de blauwe kleurperceptie. Dit veroorzaakt de grote verschuiving in het <b>b+</b> -neutrale punt en de variabiliteit in uniek blauw. De aanpassing produceert ook een relatief stabiel uniek rood ( <b>3</b> ), een extraspectrale tint loodrecht op uniek geel, waar het het neutraliserende effect van "blauw" licht in de perceptie van "warme" (rood, oranje en geel) tinten beperkt.
+</p>
+<p>
+Deze twee aanpassingen dwingen de accommodatie tussen de <b>M-</b> en <b>S-</b> kegeltjes en de locatie van hun evenwichtspunt ( <b>4</b> ), dat door de twee voorgaande aanpassingen moet worden verschoven. Zoals we zouden verwachten, is de grens van cyaan wit in dit model veel minder opvallend dan geel, omdat zowel de <b>L-</b> als <b>de S- kegeltjes "mobiel" zijn. Het </b><b>L,S-</b> evenwichtspunt (het witpunt bij deuteranopie) is <a class="text" href="colorb.html#threetypes">daardoor variabeler</a> dan het <b>M,S-</b> evenwichtspunt (het witpunt bij protanopie). Als gevolg hiervan is de perceptie van uniek groen zeer variabel tussen individuen. Merk ook op dat de negatieve aanpassing tussen <b>L</b> en <b>M</b> , en vervolgens tussen <b>L</b> en <b>S , de tegenovergestelde uiteinden van </b><b>b+</b> en <b>g+</b> (zoals gemeten in neurale paden, niet in de perceptie van oppervlaktekleur) naar geel heeft gedwongen , aangezien een tint ergens tussen <i>groenblauw</i> en <i>blauwgroen</i> het visuele complement is van uniek rood. 
+
+</p>
+<p>
+De <b>L-</b> , <b>M-</b> en <b>S-</b> kegeltjes dragen op zeer verschillende manieren bij aan kleurmenging. De mengeffecten van de <b>L-</b> en <b>M</b> -kegeltjes zijn door complexe combinaties "herzien" om alle drie de dimensies van de kleurruimte te creëren. De output van de <b>S</b> -kegeltjes speelt daarentegen ofwel helemaal geen rol (bij <a class="text" href="color1.html#newpsf">de waarneming van helderheid</a> ) of fungeert als een stabiel contrastanker voor zowel de <a class="text" href="color2.html#bluewgts">geel/blauw als de rood/groen tegengestelde dimensies</a> . In deze verankerende rol fungeren kleine hoeveelheden "blauwviolet" licht als een <i>krachtige tint</i> (bijvoorbeeld als een piek in de lichtsterkte van een verder "witte" tl-lamp, of als een "verhelderaar" in witte kleuren), en grotere hoeveelheden "blauw" licht <i>als een lichtbron,</i> waarbij een duidelijke blauwe kleur wordt afgegeven aan reflecterende oppervlakken.
+</p>
+<p>
+Als we de kleurencirkel verankeren op optimaal geel (op 90°), vinden we een symmetrische plaatsing van optimaal groen en oranje op ongeveer 40° aan weerszijden van optimaal geel, en optimaal groen en optimaal magenta bevinden zich in bijna perfecte oppositie. Dit lijken de cruciale kompaspunten in kleurenzicht te zijn. De groen/magenta-opponentie reproduceert zeer goed de grote <a class="text" href="color4.html#trezona">groen/magenta-component</a> die de maximale verzadiging van kleurafstemming stabiliseert bij mesopisch en scotopisch zicht (voor het eerst geïdentificeerd door Trezona). Dit mechanisme zou dienen om de <b>L,M</b> -output (groen) in evenwicht te brengen met de <b>L,S</b> -output (magenta) bij verschillende <a class="text" href="color4.html#yellowbalance">lichtsterktes</a> : een adaptatie naar <i>groen</i> zou optreden bij hoge lichtsterktes en naar <i>magenta</i> bij lage lichtsterktes.
+</p>
+<p>
+Nog een punt over groen. Uitgaande van de logica dat visuele complementaire <i>lichtmengsels</i> altijd moeten optellen tot een volledig "wit" spectrum, zijn de belangrijkste <b>visuele complementaire contrasten</b> die door deze analyse worden gedefinieerd: <i>geel-oranje:groen-blauw</i> (optimaal oranje + optimaal cyaan = wit), <i>groen:rood-violet</i> (optimaal groen + optimaal magenta = wit) en <i>violet-blauw:geel</i> (optimaal blauw + optimaal geel = wit). Echter, alleen het <i>groen</i> : <i>rood-violet</i> contrast is een visueel complement in CIECAM of in het Munsell-kleursysteem; de andere twee zijn "afgebogen" met 32° (geel/blauw) of 40° (oranje/cyaan) richting optimaal groen. Dit creëert de bekende discrepantie tussen <a class="text" href="color16.html#whydifference">visuele en subtractieve menging</a> in complementaire kleuren: de "warme" kleur in het paar <i>mengcomplementen</i> moet minder groen (visueel meer rood) bevatten dan de oppervlaktekleur die overeenkomt met de <i>visuele</i> complementen.
+</p>
+<p>
+Uitgaande van de waarneming van oppervlaktekleur in plaats van licht, en gebruikmakend van adaptatie als functioneel uitgangspunt voor de visuele structuur, bestaat er een <b>"groen/extreem"-spanning</b> tussen de luminantie-gewogen "groene" reflectie in het midden van het spectrum en de chromaticiteit-gewogen "blauwe" of "rode" reflectie aan de korte of lange golflengte-extremen van het spectrum.</p></td>
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td align="left" valign="top"><p>Ten slotte kunnen we het "metacomplementaire" oranje/blauwe of <a class="text" href="color12.html#warmcool">warm/koele contrast</a> identificeren met de tegenstelling tussen de gele en cyaan circuits, wat zich manifesteert in de bijna complementaire relatie tussen de <i>oranjegele</i> en <i>violetblauwe</i> tinten die ontstaan ​​door de reflectie tussen de zwarte en witte grenzen van elk circuit op te tellen (afbeelding rechts).</p>
+<p>Deze synthese laat zien dat kleurenzicht fundamenteel georganiseerd is in relatie tot de uiteinden van het spectrum, waarbij licht met korte en lange golflengten wordt gecontrasteerd in twee tegengestelde spectrumsignalen, die perceptueel worden gesymboliseerd als <i>geel</i> en <i>cyaan.</i> Dit weerspiegelt de evolutionaire prioriteit van <a class="text" href="color1.html#dichromat">dichromatisch zicht</a> die we van onze primatenvoorouders hebben geërfd.
+</p>
+<p>
+<b>De Y/B-tegenstelling</b> . Roger Shepard en anderen hebben vastgesteld dat de <a class="text" href="color1.html#psf">fotopische gevoeligheidsfunctie</a> ( <b>L+M</b> ) luminantievariaties binnen een vastgesteld luminantie-adaptatieniveau behandelt, terwijl de <a class="text" href="color1.html#dichromat">y/b-tegenstellingsfunctie </a><a class="text" href="color4.html#chromaadapt">chromatische adaptatie</a> aan natuurlijke variaties in daglicht behandelt . <a class="text" href="color1.html#solarlight">Natuurlijk licht</a> kan worden toegeschreven aan verschillende bronnen aan de tegenovergestelde uiteinden van het spectrum. De lange golflengten (warmte) zijn afkomstig van <b>zonlicht</b> , dat een gecorreleerde kleurtemperatuur (CCT) heeft die lijkt op die van de meeste vormen van <a class="text" href="color12.html#CCT">gloeilampen</a> ; de korte golflengten worden geleverd door <b>hemellicht</b> , dat een CCT heeft van 7500 K° tot boven de 20.000 K° in <a class="text" href="color12.html#wcequalsyb">het middenblauw</a> , en dat door Rayleigh-verstrooiing een tekort heeft aan straling met lange golflengten. Er zijn nog veel andere soorten licht, maar zon, vuur en de lucht zijn de belangrijkste lichtbronnen die de oppervlakken om ons heen verlichten.
+</p>
+<p>
+De optimale schakelingen in geel en cyaan illustreren het belang van dit contrast. Het <b>b-</b> uiteinde van het <b>y/b</b> -tegencontrast buigt weg van de tegenstelling tot geel, richting de tint van hemelsblauw. Optimaal geel is geen "puur" geel, maar een groengeel, de tint van direct zonlicht.
+</p>
+<p>
+<b>De rood/groen-tegenstelling</b> . Shepard suggereert ook dat de <a class="text" href="color1.html#trichromat">rood/groen-tegenstellingsfunctie</a> de aanpassing aan stof- en rookverstrooiing regelt, waardoor licht roder wordt. De rood/groen-variantie in natuurlijk licht is echter doorgaans klein, en de ervaring van zowel zonsonderganglicht als door rook rood gekleurd zonlicht is fel en opvallend, wat aantoont dat het oog rood licht niet goed kan compenseren; het rood/groen-contrast speelt een rol in vele andere functies, bijvoorbeeld bij een versterkt <a class="text" href="color4a.html#opponentfrequency">chromatisch contrast</a> . Het magenta/groen-contrast duikt ook weer op in veel situaties van luminantie-adaptatie of luminantie-contrast. Er is de groene verschuiving in het complement van "blauwviolet" licht bij hoge luminantie (het <a class="text" href="color4.html#yellowbalance">Wright-Brindley-effect</a> ), het zeer grote groen-magenta-contrast dat Trezona vond in haar onderzoek naar <a class="text" href="color4.html#trezona">tetrachromatische kleuraanpassing</a> , het verschijnen van <a class="text" href="goethe.html#plate4">groen/magenta-banden</a> in hoogfrequente diffractie- en refractiebeelden van licht/donkere banden, en de groene verschuiving (de <a class="text" href="color1.html#mesopic">Purkinje-verschuiving</a> ) tijdens mesopische naar scotopische adaptatie.
 <a name="rolemcone"></a></p>
-
 <p>
-<b>Dichromacy and the M Cone</b>. At first blush the trichromatic innovation would seem to involve the appearance of the <b>M</b> cone, <a class="text" href="color1.html#3cones">genetically similar</a> to its parent, the <b>L</b> cone. The <b>M</b> cone provides a subordinate chromatic sensitivity across the limited middle spectrum area we have already defined as <a class="text" href="#sixcolors">optimal green</a> (485&#150;565&#160;nm; diagram below). The comparatively small change in cone response proportions across the "green" wavelengths makes this an area of poor hue discrimination.</p>
-
-<p class="imgC"><img src="https://www.handprint.com/HP/WCL/IMG/satsens.gif" width=369 height=278></p>
-<p class="CC">proportional cone outputs to spectral wavelengths</p>
-<p class="subCC">in the <a class="index1" href="color1.html#areaconesens">10&deg; equal area cone fundamentals</a>
+<b>Dichromatie en de M-kegel</b> . Op het eerste gezicht lijkt de trichromatische innovatie te draaien om het verschijnen van de <b>M-</b> kegel, <a class="text" href="color1.html#3cones">genetisch gelijkend</a> op zijn ouder, de <b>L-</b> kegel. De <b>M-</b> kegel zorgt voor een ondergeschikte chromatische gevoeligheid in het beperkte middenspectrumgebied dat we al hebben gedefinieerd als <a class="text" href="#sixcolors">optimaal groen</a> (485-565 nm; zie onderstaande diagram). De relatief kleine verandering in de responsverhoudingen van de kegeltjes over de "groene" golflengten maakt dit een gebied met een slechte kleurdiscriminatie.</p>
+<p class="imgC"><img height="278" src="https://www.handprint.com/HP/WCL/IMG/satsens.gif" width="369"/></p>
+<p class="CC">proportionele kegeluitgangen naar spectrale golflengten</p>
+<p class="subCC">in de <a class="index1" href="color1.html#areaconesens">basisprincipes van de 10°-kegel met gelijke oppervlakte</a>
 </p>
-
-<p>However, recent studies of hue labeling in <a class="text" href="colorb.html#huecancel">color deficient</a> subjects suggest a complex relationship between individual cones and the colormaking attributes:
+<p>Recente studies naar kleurherkenning bij mensen <a class="text" href="colorb.html#huecancel">met kleurenblindheid</a> suggereren echter een complexe relatie tussen individuele kegeltjes en de eigenschappen die kleurvorming mogelijk maken:
 </p>
-
 <p>
-So how does the <b>M</b> cone enter the picture? 
+Hoe komt de <b>M-</b> kegel dan in beeld? 
 </p>
-
 <p>
-The dominant wavelength of optimal green (525&#160;nm) matches the average value for <a class="text" href="color2.html#greendiffs">unique green</a> in a recent study; the two green circuits reach peak chroma at 508&#160;nm and 558&#160;nm, the <a class="text" href="color2.html#greendiffs">range of wavelength choices</a> for unique green in the same study.
+De dominante golflengte van optimaal groen (525 nm) komt overeen met de gemiddelde waarde voor <a class="text" href="color2.html#greendiffs">uniek groen</a> in een recent onderzoek; de twee groene circuits bereiken hun piekkleur bij 508 nm en 558 nm, het <a class="text" href="color2.html#greendiffs">golflengtebereik dat</a> in hetzelfde onderzoek werd gekozen voor uniek groen.
 </p>
-
 <p>
-The discussion above suggests that the <b>L+M</b> cones are the anchor of the yellow circuit; unique yellow and the tritanopia white point have been shifted to one side of the yellow circuit, presumably to balance the evolutionary appearance of the <b>M</b> cone.
+Uit bovenstaande discussie blijkt dat de <b>L+M-</b> kegeltjes het ankerpunt van het gele circuit vormen; het unieke gele punt en het tritanopie-witte punt zijn naar één kant van het gele circuit verschoven, vermoedelijk om het evolutionaire uiterlijk van het <b>M-</b> kegeltje in evenwicht te brengen.
 <a name="cherries"></a></p>
-
 <p>
-<b>Cherries &#038; Leaves</b>. The story currently popular in academe, that the r/g opponency evolved so that our primate ancestors could "find cherries among the leaves" seems a thin reed to explain so many visual functions and adaptations. If anything, the precise coincidence between the yellow circuit peak chroma (CIECAM HA&#160;= 45&deg;) and the average <a class="text" href="tech35.html#skintones">hue of human flesh</a> (HA&#160;= 43&deg;), and the profound significance humans place on skin appearance in racial identification, health assessment, ornamentation and sexual selection, strongly imply that trichromacy has a fundamentally social origin, decoupling social response from illuminant adaptation.
+<b>Kersen en bladeren</b> . Het verhaal dat momenteel populair is in de academische wereld, namelijk dat de rood-groen tegenstelling is geëvolueerd zodat onze primatenvoorouders "kersen tussen de bladeren konden vinden", lijkt een zwakke verklaring voor zoveel visuele functies en aanpassingen. Sterker nog, de precieze overeenkomst tussen de piekkleur van het gele circuit (CIECAM HA = 45°) en de gemiddelde <a class="text" href="tech35.html#skintones">tint van de menselijke huid</a> (HA = 43°), en de grote betekenis die mensen hechten aan huidskleur bij raciale identificatie, gezondheidsbeoordeling, versiering en seksuele selectie, suggereren sterk dat trichromie een fundamenteel sociale oorsprong heeft, waarbij sociale reacties losgekoppeld worden van aanpassing aan de lichtbron.
 </p>
-
 <p>
-<b>Chroma</b>. Considered as an adaptive feature of color vision, what is chroma for? We can of course refer the the variations in maximum chroma across hues (as mapped in the 70&#160;nm optimal circuit, <a class="text" href="#balance2">diagram above</a>) to the receptor structure of color vision. But the question is, why are receptors structured in this way?
+<b>Chroma</b> . Beschouwd als een adaptieve eigenschap van kleurenzicht, waar dient chroma eigenlijk voor? We kunnen de variaties in maximale chroma over de verschillende tinten (zoals weergegeven in het optimale circuit van 70 nm, <a class="text" href="#balance2">diagram hierboven</a> ) natuurlijk toeschrijven aan de receptorstructuur van kleurenzicht. Maar de vraag is: waarom zijn receptoren op deze manier gestructureerd?
 </p>
-
 <p>
-One possibility is that we are tuned to perceive very high chroma to discriminate among objects with very high chroma. This is the "cherries among the leaves" hypothesis for red hues. But this does not explain our extreme chroma sensitivity in short wavelengths, which includes purples that almost never appear in nature.
+Een mogelijke verklaring is dat we zijn afgestemd op het waarnemen van zeer hoge kleurintensiteit om onderscheid te maken tussen objecten met een zeer hoge kleurintensiteit. Dit is de "kersen tussen de bladeren"-hypothese voor rode tinten. Maar dit verklaart niet onze extreme gevoeligheid voor kleurintensiteit bij korte golflengten, waaronder paarse tinten die in de natuur bijna nooit voorkomen.
 </p>
-
 <p>
-I prefer the alternative, that we are tuned to perceive very high chroma in hues where <i>low chroma</i> discrimination is important. This suggests that we are sensitive to blue violet light so that we can respond to very small variations in its proportion in natural light, or that we are most sensitive to orange hues so that we can respond to very small variations in the (dull) tints of human skin.<a name="summary"></a></p>
-
-<p class="floatArrow"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p><h3>summary</h3>
-
-<p><img src="space.gif" width=90 height=1 align=left><p>In particular, luminance and spatial contrasts have a dominant role in the perception of surface colors. Isolated light mixtures are easier to manipulate and measure as color stimuli, and in principle can stimulate to the limits of the visual system, and many generalizations about color vision are based on them. But care must be taken to distinguish clearly between spectral colors and surface colors when reading or thinking about color, or using color principles in design.
+Ik geef de voorkeur aan het alternatief, namelijk dat we zijn afgestemd op het waarnemen van een zeer hoge kleurverzadiging in tinten waar <i>een lage kleurverzadigingsdiscriminatie</i> belangrijk is. Dit suggereert dat we gevoelig zijn voor blauwviolet licht, zodat we kunnen reageren op zeer kleine variaties in de verhouding ervan in natuurlijk licht, of dat we het meest gevoelig zijn voor oranje tinten, zodat we kunnen reageren op zeer kleine variaties in de (doffe) tinten van de menselijke huid.<a name="summary"></a></p>
+<p class="floatArrow"><a class="text" href="#top"><img border="0" height="14" src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width="10"/></a></p><h3>samenvatting</h3>
+<p><img align="left" height="1" src="space.gif" width="90"/></p><p>Met name helderheid en ruimtelijke contrasten spelen een dominante rol in de waarneming van oppervlaktekleuren. Geïsoleerde lichtmengsels zijn gemakkelijker te manipuleren en te meten als kleurstimuli en kunnen in principe de grenzen van het visuele systeem bereiken. Veel generalisaties over kleurenzicht zijn hierop gebaseerd. Het is echter van belang om een ​​duidelijk onderscheid te maken tussen spectrale kleuren en oppervlaktekleuren bij het lezen of nadenken over kleur, of bij het toepassen van kleurprincipes in ontwerp.
 </p>
-
 <p>
-This analysis does not recover anything resembling the <a class="text" href="color3.html#colormaking">colormaking attributes</a> or the opponent functions. The fundamental dynamics of color perception do not appear to be based on these. Hue discrimination and the HK effect show that hue and chroma, and chroma and brightness, are functionally interdependent at several stages of color vision. The colormaking attributes are meaningful when used in combination to describe, model or predict the conscious experience of color, but they are weak when considered as abstract dimensions of color &#151; especially when used to describe lightness or brightness separate from hue and chroma.
+Deze analyse levert niets op dat lijkt op de <a class="text" href="color3.html#colormaking">kleurvormende eigenschappen</a> of de tegengestelde functies. De fundamentele dynamiek van kleurwaarneming lijkt hier niet op gebaseerd te zijn. Kleurdiscriminatie en het HK-effect tonen aan dat tint en verzadiging, en verzadiging en helderheid, functioneel van elkaar afhankelijk zijn in verschillende stadia van kleurenzien. De kleurvormende eigenschappen zijn betekenisvol wanneer ze in combinatie worden gebruikt om de bewuste kleurervaring te beschrijven, te modelleren of te voorspellen, maar ze zijn zwak wanneer ze worden beschouwd als abstracte dimensies van kleur – vooral wanneer ze worden gebruikt om lichtheid of helderheid los van tint en verzadiging te beschrijven.
 </p>
-
 <p>
-Both <i>violet</i> (purple) and <i>red violet</i> (the boundary hue between <i>violet</i> and <i>red</i>) have been neglected in color vision research. In part this is because they are not found in the visible spectrum, and therefore have been assumed to be outside the adaptation logic of the visual system; and in part because they are not among the "primitive" color terms in natural color lexicons, and therefore less relevant to issues of color standardization and communication. For similar reasons, the "in between" boundary hues <i>green yellow, green blue</i> and <i>red violet</i> have been ignored in favor of prototypical unique hues <i>yellow, blue, green</i> and <i>red.</i> The analysis described above suggests the potential importance of these extraspectral and boundary hues to the investigation of visual structure and function. 
+Zowel <i>violet</i> (paars) als <i>roodviolet</i> (de grenskleur tussen <i>violet</i> en <i>rood</i> ) zijn verwaarloosd in onderzoek naar kleurenzicht. Dit komt deels doordat ze niet in het zichtbare spectrum voorkomen en daarom werden verondersteld buiten de adaptatielogica van het visuele systeem te vallen; en deels doordat ze niet tot de "primitieve" kleurnamen in natuurlijke kleurlexicons behoren en daarom minder relevant zijn voor kwesties van kleurstandaardisatie en -communicatie. Om vergelijkbare redenen zijn de "tussenliggende" grenskleuren <i>groengeel, groenblauw</i> en <i>roodviolet</i> genegeerd ten gunste van de prototypische unieke kleuren <i>geel, blauw, groen</i> en <i>rood.</i> De bovenstaande analyse suggereert het potentiële belang van deze extraspectrale en grenskleuren voor het onderzoek naar de structuur en functie van het visuele systeem. 
 </p>
-
 <p>
-Response compression exerts its effects throughout the visual system. In lightness perception, response compression expands lightness contrast in low reflectance surfaces, minimizes lightness contrast in high reflectance surfaces, and represents most of the increments of an equal interval luminance scale as values above a medium gray. In hue purity perception, response compression expands chromatic contrast in saturated colors, minimizes chromatic contrast in dull colors, and represents most of the increments of an equal interval excitation purity scale as colors below "intense" saturation.
+Responscompressie oefent zijn effect uit op het gehele visuele systeem. Bij de waarneming van helderheid vergroot responscompressie het helderheidscontrast op oppervlakken met een lage reflectie, minimaliseert het het helderheidscontrast op oppervlakken met een hoge reflectie en geeft het de meeste stappen van een luminantieschaal met gelijke intervallen weer als waarden boven middengrijs. Bij de waarneming van kleurzuiverheid vergroot responscompressie het chromatische contrast in verzadigde kleuren, minimaliseert het het chromatische contrast in doffe kleuren en geeft het de meeste stappen van een excitatiezuiverheidsschaal met gelijke intervallen weer als kleuren onder "intense" verzadiging.
 </p>
-
 <p>
-Color measurements are normally made with the color presented against a background neutral gray, the <i>adaptation gray.</i> Small color differences are especially noticeable in the contrast between adjacent color areas. Large color differences or differences between visually distant color areas may be compressed or distorted in order to render the complete range of colors in a visual context.
+Kleurmetingen worden normaal gesproken uitgevoerd met de kleur tegen een neutrale grijze achtergrond, het <i>adaptatiegrijs.</i> Kleine kleurverschillen zijn vooral merkbaar in het contrast tussen aangrenzende kleurvlakken. Grote kleurverschillen of verschillen tussen visueel ver uit elkaar liggende kleurvlakken kunnen worden gecomprimeerd of vervormd om het volledige kleurenspectrum in een visuele context weer te geven.
 </p>
-
 <p>
-For reasons of historical research convenience, analytical precision and practical measurement, the color matching foundations of <a class="text" href="color6.html#colorimetry">colorimetry</a> are derived entirely from light mixtures. Yet, given the proportion of developmental years that humans spend looking at objects rather than lights (including "soft copy" lights such as televisions or computer monitors), there is no question that <b>surface colors are the <a class="text" href="color4a.html#spatialcolor">fundamental visual context</a></b> that color vision is adapted to represent accurately. Despite the fact that physical color appearance is very far removed from the original cone excitations, surface colors are the framework within which all color phenomena must be rationalized or modeled.
+Omwille van het gemak van historisch onderzoek, analytische precisie en praktische meetmethoden, zijn de basisprincipes van kleurvergelijking in de <a class="text" href="color6.html#colorimetry">colorimetrie</a> volledig afgeleid van lichtmengsels. Gezien het grote deel van de ontwikkelingsjaren dat mensen besteden aan het kijken naar objecten in plaats van naar lichtbronnen (inclusief "zachte" lichtbronnen zoals televisies of computermonitoren), staat het echter buiten kijf dat <b>oppervlaktekleuren de <a class="text" href="color4a.html#spatialcolor">fundamentele visuele context</a></b> vormen waarop kleurenzicht is aangepast om nauwkeurig weer te geven. Ondanks het feit dat de fysieke kleurwaarneming sterk afwijkt van de oorspronkelijke prikkeling van de kegeltjes, vormen oppervlaktekleuren het kader waarbinnen alle kleurverschijnselen moeten worden verklaard of gemodelleerd.
 </p>
-
 <p>
-Many aspects of color geometry are adaptations to enhance the interpretation of surface colors under natural light sources, and may appear to be design flaws if light perception is the standard of evaluation.</p>
-
-<p class="footlink">N E X T : &#160; <a class="text" href="color4.html">adaptation, anchoring &amp; contrast</a></p>
-
-<p class="footlink"><a class="text" href="#top"><img src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width=10 height=14 border=0></a></p>
-
-<p class="footlink"><a class="text" href="../../LS/CVS/color.html"><IMG SRC="https://www.handprint.com/HP/WCL/IMG/whorlwht.gif" WIDTH=48 HEIGHT=48 BORDER=0></A></p>
-
-<p class="last">Last revised 08.01.2005 &#149; &copy; 2005 Bruce MacEvoy</p>
-</TD>
-
-<td colspan=2 valign=top>
-<p class="imgS"><img src="https://www.handprint.com/HP/WCL/IMG/opthues.gif" width=200 height=100></p>
-<p class="SC">the warm/cool contrast in optimal hues</p></td>
+Veel aspecten van kleurgeometrie zijn aanpassingen om de interpretatie van oppervlaktekleuren onder natuurlijke lichtbronnen te verbeteren, en kunnen als ontwerpfouten worden beschouwd als lichtperceptie de maatstaf voor beoordeling is.</p>
+<p class="footlink">VOLGENDE:    <a class="text" href="color4.html">aanpassing, verankering en contrast</a></p>
+<p class="footlink"><a class="text" href="#top"><img border="0" height="14" src="https://www.handprint.com/HP/WCL/IMG/nabup.gif" width="10"/></a></p>
+<p class="footlink"><a class="text" href="../../LS/CVS/color.html"><img border="0" height="48" src="https://www.handprint.com/HP/WCL/IMG/whorlwht.gif" width="48"/></a></p>
+<p class="last">Laatst herzien op 08.01.2005 • © 2005 Bruce MacEvoy</p>
 </td>
+<td colspan="2" valign="top">
+<p class="imgS"><img height="100" src="https://www.handprint.com/HP/WCL/IMG/opthues.gif" width="200"/></p>
+<p class="SC">het warme/koude contrast in optimale tinten</p></td>
 </tr>
+<tr><td colspan="5" height="80"> </td></tr>
+</tbody></table>
 
-<tr><td colspan=5 height=80>&#160;</td></tr> 
-
-</TABLE>
-
-</BODY>
-
-</HTML> 
+</body></html>
